@@ -1,0 +1,31 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('polices/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('polices/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+body
+{
+  display: grid;
+  
+}
+
+.blocks_left
+{
+  max-width: 883.34px;
+  margin: 54 left;
+  display: grid;
+  background: #F2F2F2;
+}
+
+.blocks_right
+{
+  max-width: 426.66px;
+  margin: 54 right;
+  display: grid;
+  background: #F2F2F2;
+}
