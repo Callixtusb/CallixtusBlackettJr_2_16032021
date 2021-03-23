@@ -96,17 +96,14 @@ header
 /* Hebergement photo block ///////////////////////////////////////////*/
 .block_lodging
 {
-  max-width: ;
-   display: ;
+ 
   background: #F2F2F2;
 }
 
 /* Plus populaire photo block ///////////////////////////////////////////*/
 .block_populaire
 {
-  max-width: ;
-  display: ;
-  background: #F2F2F2;
+   background: #F2F2F2;
 }
 
 /* Définition des polices ///////////////////////////////////////////*/
