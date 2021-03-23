@@ -4,7 +4,6 @@
 {
   width: 1000px;
   margin: auto;
-  
 }
 
 body
@@ -106,17 +105,6 @@ header
    background: #F2F2F2;
 }
 
-/* Définition des polices ///////////////////////////////////////////*/
-
-@font-face 
-{
-    font-family: 'raleway';
-    src: url('polices/Raleway-VariableFont_wght.ttf') format('normal');
-    font-weight: normal;
-    font-style: normal;
-}
-  
-  
 
 
 
