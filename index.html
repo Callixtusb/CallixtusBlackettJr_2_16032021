@@ -25,26 +25,28 @@
       <img src="images/logo/Reservia.svg" alt="Logo Reservia"/>
     </div>
 
-    <nav class="navbar">
-      <ul>
-         <li><a href="#">Hebergement</a></li>
-         <li><a href="#">Activite</a></li>
-         <li><a href="#">S'inscrire</a></li>
+    <nav>
+      <ul class="navbar">
+         <li><a href="#" class="lien_hebergement">Hébergement</a></li>
+         <li><a href="#" class="lien_activite">Activité</a></li>
+         <li><a href="#" class="lien_inscrire">S'inscrire</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Section 1 - Filter section -->
   <section id="search_section">
-   <div class="search_section_title">
-      <h3>Trouver votre hébergement pour des vacances de rêve</h3>
-      <p>En plein centre ville ou en pleine nature</p>
-   </div>
-
+   
+      <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+      <p class="centre_ville">En plein centre ville ou en pleine nature</p>
+   
    <div class="location_search">
      <form>
-       <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Marseille, France" title="Type in a location">
-       <button class="rechercher" type="button" href="https:www.search.com">Rechercher</button>
+       <div class="input_bloc">
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" id="myInput" placeholder="Marseille, France" title="Type in a location">
+          <button class="rechercher" type="button" href="#">Rechercher</button>
+       </div>
        
        <div class="filter_list">
        <h4 class="filter_title_icons" >Filters</h4>
@@ -56,6 +58,7 @@
          </ul>
        </div>
       </form>
+     
       <div class="info">
         <i class="fas fa-info"></i>
         <p class="info_text">Plus de 500 logements sont disponibles dans cette ville.</p>
@@ -67,10 +70,10 @@
   <section id="lodging_results">
     <div class="hebergement_results">
       <h3>Hébergement à Marseille</h3>
-      <div class="blocks_left">
+      <div class="block_lodging">
         
         <div class="auberge_la_cannebiere">
-          <a href="#" class="auberge_link"><img src="auberge la cannebiere"/></a>
+          <a href="#" class="auberge_link"><img src="auberge la cannebiere" alt="Auberge La Cannebière" /></a>
           <p><strong>Auberge La Cannebière</strong></p>
           <p>Nuit à partir de 25€</p>
           <ul class="cannebiere_stars">
@@ -83,7 +86,7 @@
         </div>
         
         <div class="hotel_du_pont">
-          <a href="#" class="pont_link"><img src="hotel du pont"/></a>
+          <a href="#" class="pont_link"><img src="hotel du pont" alt="Hôtel du pont" /></a>
           <p><strong>Hôtel du pont</strong></p>
           <p>Nuit à partir de 52€</p>
           <ul class="hotel_du_pont_stars">
@@ -96,7 +99,7 @@
         </div>
         
         <div class="hotel_les_mouettes">
-          <a href="#" class="les_mouettes_link"><img src="hotel les mouettes"/></a>
+          <a href="#" class="les_mouettes_link"><img src="hotel les mouettes" alt="Hôtel les mouettes" /></a>
           <p><strong>Hôtel les mouettes</strong></p>
           <p>Nuit à partir de 75€</p>
           <ul class="les_mouettes_stars">
@@ -109,7 +112,7 @@
         </div>
         
         <div class="hotel_mere">
-          <a href="#" class="mere_link"><img src="hotel_mere"/></a>
+          <a href="#" class="mere_link"><img src="hotel_mere" alt="Hôtel de la mère" /></a>
           <p><strong>Hôtel de la mère</strong></p>
           <p>Nuit à partir de 75€</p>
           <ul class="hotel_mere_stars" type="">
@@ -122,7 +125,7 @@
         </div>
         
         <div class="hotel_le_panier">
-          <a href="#" class="panier_link"><img src="hotel le panier"/></a>
+          <a href="#" class="panier_link"><img src="hotel le panier" alt="Hôtel Le Panier" /></a>
           <p><strong>Hôtel Le Panier</strong></p>
           <p>Nuit à partir de 23€</p>
           <ul class="le_panier_stars">
@@ -135,7 +138,7 @@
         </div>
         
         <div class="hotel_chez_amina">
-          <a href="#" class="amina_link"><img src="hotel chez amina"/></a>
+          <a href="#" class="amina_link"><img src="hotel chez amina" alt="Hôtel chez Amina" /></a>
           <p><strong>Hôtel chez Amina</strong></p>
           <p>Nuit à partir de 23€</p>
           <ul class="chez_amina_stars">
@@ -149,13 +152,13 @@
         <a href="#">Afficher plus</a>
       </div>
       
-      <div class="blocks_right">
+      <div class="block_populaire">
        <div class="title_and_graph">
           <h3>Les plus populaires</h3>
           <i class="fas fa-chart-line"></i>
        </div> 
         <div class="hotel_soleil_du_matin">
-          <a href="#" class="soleil_link"><img src="hotel Le soleil du matin"/></a>
+          <a href="#" class="soleil_link"><img src="hotel Le soleil du matin" alt="Hôtel Le soleil du matin" /></a>
             <div class="soleil_text_stars">
               <p><strong>Hôtel Le soleil du matin</strong></p>
               <p>Nuit à partir de 128€</p>
@@ -170,7 +173,7 @@
          </div>
         
         <div class="coeur_eau">
-          <a href="#" class="coeur_eau_link"><img src="Au coeur de l'eau Chambres d'hotes"/></a>
+          <a href="#" class="coeur_eau_link"><img src="Au coeur de l'eau Chambres d'hotes" alt="Au coeur de l'eau Chambres d'hôtes" /></a>
             <div class="coeur_eau_text_stars">
               <p><strong>Au coeur de l'eau Chambres d'hôtes</strong></p>
               <p>Nuit à partir de 71€</p>
@@ -185,7 +188,7 @@
          </div>
         
         <div class="bleu_blanc">
-          <a href="#" class="bleu_blanc_link"><img src="Hotel Tout bleu et Blanc" /></a>
+          <a href="#" class="bleu_blanc_link"><img src="Hotel Tout bleu et Blanc" alt="Hôtel Tout bleu et Blanc" /></a>
             <div class="bleu_text_stars">
               <p><strong>Hôtel Tout bleu et Blanc</strong></p>
               <p>Nuit à partir de 68€</p>
@@ -207,32 +210,32 @@
     <div class="activities_results">
       <h3>Activités à Marseille</h3>
       <div class="vieuxPort_pic_text">
-         <a href="#"><img src="Vieux_port" class="vieuxPort_pic" /></a>
+         <a href="#"><img src="Vieux_port" class="vieuxPort_pic" alt="Vieux Port" /></a>
          <p>Vieux Port</p>
       </div>
       
       <div class="pomegues_pic_text">
-         <a href="#"><img src="fort pomegues" class="fortPomegues_pic" /></a>
+         <a href="#"><img src="fort pomegues" class="fortPomegues_pic" alt="Fort de Pomègues" /></a>
          <p>Fort de Pomègues</p>
       </div>
       
       <div class="frioul_pic_text">
-         <a href="#"><img src="iles du frioul" class="ilesFrioul_pic" /></a>
+         <a href="#"><img src="iles du frioul" class="ilesFrioul_pic" alt="Iles du Frioul" /></a>
          <p>Iles du Frioul</p>
       </div>
       
       <div class="calanques_pic_text">
-         <a href="#"><img src="calanques" class="calanques_pic" /></a>
+         <a href="#"><img src="calanques" class="calanques_pic" alt="Parc National des Calanques" /></a>
          <p>Parc National des Calanques</p>
       </div>
       
       <div class="notreDame_pic_text">
-         <a href="#"><img src="notreDame" class="notreDame_pic" /></a>
+         <a href="#"><img src="notreDame" class="notreDame_pic" alt="Notre-Dame-de-la-Garde" /></a>
          <p>Notre-Dame-de-la-Garde</p>
       </div>
       
       <div class="Longchamp_pic_text">
-         <a href="#"><img src="Longchamp" class="Longchamp_pic" /></a>
+         <a href="#"><img src="Longchamp" class="Longchamp_pic" alt="Parc Longchamp" /></a>
          <p>Parc Longchamp</p>
       </div>
     </div>
@@ -272,7 +275,7 @@
     </div>
     
   </footer>
-
+</div>
 </body>
-</html>
+
 </html>

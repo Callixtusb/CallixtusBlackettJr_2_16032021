@@ -1,31 +1,127 @@
-/* Définition des polices personnalisées */
 
-@font-face {
-    font-family: 'ralewaythin';
-    src: url('polices/raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('polices/raleway-variablefont_wght-webfont.woff') format('woff');
+
+#bloc_page
+{
+  width: 1000px;
+  margin: auto;
+  
+}
+
+body
+{
+font-family: railway, arial;
+font-weight: normal;
+}
+
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 53px;
+  margin-bottom: 51px;
+}
+
+/* Navigation bar block ///////////////////////////////////////////*/
+.navbar
+{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.lien_activite
+{
+  margin-right: 68px;
+  margin-left: 67px;
+  text-decoration: none;
+}
+
+.lien_hebergement,.lien_activite,.lien_inscrire
+{
+  text-decoration: none;
+  color: black;
+}
+
+.lien_hebergement
+{
+  border-top: 2px solid #0065FC;
+  padding-top: 63px;
+  color: #0065FC;
+} 
+
+/* Centre ville text ///////////////////////////////////////////*/
+.centre_ville
+{
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+/* Form & input block ///////////////////////////////////////////*/
+#myInput
+{
+  width: 250 px;
+  border-radius: 5px;
+  border: 2px solid #F2F2F2;
+  padding: 9.5px;
+}
+
+.rechercher
+{
+  border: 0px;
+  border-radius: 0px 15px 15px 0px;
+  padding: 11px;
+  color: #ffff;
+  background-color: #0065FC;
+  margin-left: -6px;
+}
+
+/* Filter list block ///////////////////////////////////////////*/
+#myUL
+{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.filter_list
+{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Hebergement photo block ///////////////////////////////////////////*/
+.block_lodging
+{
+  max-width: ;
+   display: ;
+  background: #F2F2F2;
+}
+
+/* Plus populaire photo block ///////////////////////////////////////////*/
+.block_populaire
+{
+  max-width: ;
+  display: ;
+  background: #F2F2F2;
+}
+
+/* Définition des polices ///////////////////////////////////////////*/
+
+@font-face 
+{
+    font-family: 'raleway';
+    src: url('polices/Raleway-VariableFont_wght.ttf') format('normal');
     font-weight: normal;
     font-style: normal;
 }
   
-body
-{
-  display: grid;
   
-}
 
-.blocks_left
-{
-  max-width: 883.34px;
-  margin: 54 left;
-  display: grid;
-  background: #F2F2F2;
-}
 
-.blocks_right
-{
-  max-width: 426.66px;
-  margin: 54 right;
-  display: grid;
-  background: #F2F2F2;
-}
+
+
+
