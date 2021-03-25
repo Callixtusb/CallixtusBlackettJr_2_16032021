@@ -261,8 +261,33 @@ left: 66%;
 bottom: -22px;
 left: 66.5%; 
 }
+/* Info block ///////////////////////////////////////////*/
+.info
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
 
+.fa-info
+{
+  border-radius: 50%;
+  padding: 6px;
+  width: 12px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 15px;
+  border: 1px solid #b8b7b7;
+  color: #0065FC;
+  background-color: #ffff;
+}
 
+.info_text
+{
+margin-left: 1%;
+}
 
 
 
