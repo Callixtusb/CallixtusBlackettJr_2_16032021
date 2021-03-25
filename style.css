@@ -59,31 +59,38 @@ header
 }
 
 /* Form & input block ///////////////////////////////////////////*/
-
+.input_bloc
+{
+  display: flex;
+  flex-direction: row;
+}
 
 .fa-map-marker-alt
 {
   border: 0px;
-  border-radius: 15px 0px 0px 15px;
-  padding: 11px;
+  border-radius: 10px 0px 0px 10px;
+  padding: 9.5px 10px 11px 16px;
   color: black;
-  background-color: #F2F2F2;
-  width: 15px;
-} 
+  background-color: #d9d9d9;
+  width: 20px;
+
+   } 
 
 #myInput
 {
   width: 200px;
-  border-radius: 5px;
-  border: 2px solid #F2F2F2;
+  border-radius: 0px;
+  border: 1px solid #d9d9d9;
   padding: 9.5px;
+  margin-left: -7px;
+bottom: 100px;
 }
 
 .rechercher
 {
   border: 0px;
   border-radius: 0px 15px 15px 0px;
-  padding: 11px;
+  padding: 10.5px;
   color: #ffff;
   background-color: #0065FC;
   margin-left: -6px;
@@ -94,6 +101,7 @@ header
 .filter_list
 {
   display: flex;
+  flex-direction: row;
   align-items: center;
   margin-top: 30px;
 }
@@ -127,7 +135,8 @@ header
 .fa-money-bill-wave     /*icon class pour Economique*/
 {
   border-radius: 50%;
-  padding: 21px;
+  padding: 13px;
+  width: 17px;
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
@@ -135,8 +144,8 @@ header
   background-color: #DEEBFF;
   position: absolute; 
   z-index: 9;
-  bottom: -21px;
-  left: -1%;
+  bottom: -22px;
+  left: 0%;
 } 
 
 
@@ -152,14 +161,15 @@ header
 	text-align: right; 
 	color: black; 
   bottom: -22px;
-  left: 0%;
+  left: 1%;
 }
 
 /*///////////////////////////////////////////////////////////*/
  .fa-child     /*icon class pour Familiale*/
 {
   border-radius: 50%;
-  padding: 21px;
+  padding: 13px;
+  width: 17px;
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
@@ -167,8 +177,8 @@ header
   background-color: #DEEBFF;
   	position: absolute; 
    z-index: 8;
-   bottom: -21px;
-   left: 20%;
+   bottom: -22px;
+   left: 23%;
 } 
 
 
@@ -184,14 +194,15 @@ header
 	text-align: right; 
 	color: black; 
   bottom: -22px;
-  left: 21%;  
+  left: 24%;  
 }
 
 /*///////////////////////////////////////////////////////////*/
  .fa-heart     /*icon class pour Romantique*/
 {
   border-radius: 50%;
-  padding: 14px;
+  padding: 13px;
+  width: 17px;
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
@@ -199,8 +210,8 @@ header
   background-color: #DEEBFF;
   	position: absolute; 
    z-index: 7;
-bottom: -15px;
-left: 50%;  
+bottom: -22px;
+left: 43%;  
 } 
 
 
@@ -216,14 +227,15 @@ left: 50%;
 	text-align: right; 
 	color: black; 
 bottom: -22px;
-left: 50%;  
+left: 44%;  
 }
 
 /*///////////////////////////////////////////////////////////*/
  .fa-dog     /*icon class pour Animaux authorisés*/
 {
   border-radius: 50%;
-  padding: 14px;
+  padding: 13px;
+  width: 17px;
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
@@ -231,8 +243,8 @@ left: 50%;
   background-color: #DEEBFF;
   	position: absolute; 
    z-index: 6;
-bottom: -15px;
-left: 70%; 
+bottom: -22px;
+left: 66%; 
 } 
 
 .animaux
@@ -247,52 +259,10 @@ left: 70%;
 	text-align: right; 
 	color: black; 
 bottom: -22px;
-left: 70%; 
+left: 66.5%; 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SCRAP*/
-economique:after
-{ 
-	content: ''; 
-	position: absolute; 
-	border-radius: 50%;
-  padding: 15px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 15px;
-  color: #0065FC;
-  background-color: #DEEBFF;
-  top: 10%; 
-  right: 75%;
-}
-/* SCRAP*/
 
 
 
