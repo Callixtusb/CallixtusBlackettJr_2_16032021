@@ -67,14 +67,13 @@ header
 
 .fa-map-marker-alt
 {
-  border: 0px;
+    border: 0px;
   border-radius: 10px 0px 0px 10px;
   padding: 9.5px 10px 11px 16px;
   color: black;
   background-color: #d9d9d9;
   width: 20px;
-
-   } 
+} 
 
 #myInput
 {
@@ -83,14 +82,13 @@ header
   border: 1px solid #d9d9d9;
   padding: 9.5px;
   margin-left: -7px;
-bottom: 100px;
 }
 
 .rechercher
 {
   border: 0px;
   border-radius: 0px 15px 15px 0px;
-  padding: 10.5px;
+  padding: 11px;
   color: #ffff;
   background-color: #0065FC;
   margin-left: -6px;
@@ -241,7 +239,7 @@ left: 44%;
   line-height: 15px;
   color: #0065FC;
   background-color: #DEEBFF;
-  	position: absolute; 
+  position: absolute; 
    z-index: 6;
 bottom: -22px;
 left: 66%; 
@@ -290,11 +288,156 @@ margin-left: 1%;
 }
 
 
+/* Hebergement à Marseille photo block ///////////////////////////////////////////*/
+.block_lodging
+{
+  max-width: 85%;
+  background: #F2F2F2;
+  border-radius: 15px;
+  }
 
-/* Hebergement photo block ///////////////////////////////////////////*/
+
+.block_lodging_photos
+{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 230px 230px 230px;
+  grid-template-rows: 80px 140px 200px 100px;
+  column-gap: 31px;
+  row-gap: 31px;
+  align-content: center;
+  
+}
+.lodging_title
+{
+  grid-column: 1 / span 2;
+  grid-row: 1 / 2;
+  justify-self: start;
+  align-self: end;
+  
+}
+
+/*///////////////////////////////////////////////////////////*/
+.auberge_la_cannebiere     /*Image block - Auberge La Cannebière*/
+{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  justify-self: start;
+  align-self: center;
+  
+}
+
+.auberge_pic
+{
+  width: 230px;
+  height: 110px;
+  object-fit: cover;
+  margin-bottom: -18px;
+  border-radius: 25px 25px 0px 0px;
+  border: 4px solid #ffff
+}
+
+.auberge_bloc_text_and_stars 
+{
+  background-color: #ffff;
+  padding: 2px 0px 0px 20px;
+  border-radius: 0px 0px 25px 25px;
+  line-height: 25px;
+}
+
+.auberge_stars
+{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: #0065FC;
+}
+  
+
+
+
+
+
+/*///////////////////////////////////////////////////////////*/
+.hotel_du_port      /*Image block - Hôtel du port*/
+{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: start;
+  align-self: center;
+  border: 4px solid #ffff
+  
+}
+
+
+
+/*///////////////////////////////////////////////////////////*/
+.hotel_les_mouettes      /*Image block - Hôtel les mouettes*/
+{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  justify-self: start;
+  align-self: center;
+  border: 4px solid #ffff
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+.hotel_mere      /*Image block - Hôtel de la mère*/
+{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  justify-self: start;
+  align-self: center;
+  border: 4px solid #ffff
+  
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+.hotel_le_panier      /*Image block - Hôtel Le Panier*/
+{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  justify-self: start;
+  align-self: center;
+  border: 4px solid #ffff
+  
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+.hotel_chez_amina      /*Image block - Hôtel chez Amina*/
+{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  justify-self: start;
+  align-self: center;
+  border: 4px solid #ffff
+  
+}
+
+
+/*///////////////////////////////////////////////////////////*/
+.afficher_plus
+{
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  justify-self: start;
+  align-self: center;
+  
+}
+
+
+
+
 
 
 /* Plus populaire photo block ///////////////////////////////////////////*/
+
+
+
+
 
 /* Définition des polices ///////////////////////////////////////////*/
 
