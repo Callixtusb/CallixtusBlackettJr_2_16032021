@@ -319,7 +319,7 @@ header
   grid-template-columns: 230px 230px 230px;
   grid-template-rows: 80px 150px 250px 10px;
   column-gap: 31px;
-  row-gap: 31px;
+  row-gap: 21px;
   align-content: center;
 }
 .lodging_title
@@ -342,9 +342,9 @@ header
 .auberge_pic
 {
   width: 220px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   border-radius: 25px 25px 0px 0px;
   border: 4px solid #ffff
 }
@@ -353,9 +353,11 @@ header
 {
   background-color: #ffff;
   padding: 2px 20px;
-  padding-bottom: -10px;
   border-radius: 0px 0px 25px 25px;
   line-height: 25px;
+  height: 95px;
+  box-shadow: 0 0 25px -15px #444444;
+  border-radius: 25px 25px 25px 25px; 
 }
 
 .auberge_stars
@@ -387,9 +389,9 @@ header
 .port_pic
 {
   width: 220px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   border-radius: 25px 25px 0px 0px;
   border: 4px solid #ffff
 }
@@ -401,6 +403,9 @@ header
   padding-bottom: -10px;
   border-radius: 0px 0px 25px 25px;
   line-height: 25px;
+  height: 95px;
+  box-shadow: 0 0 25px -15px #444444;
+  border-radius: 25px 25px 25px 25px; 
 }
 
 .hotel_du_port_stars
@@ -426,9 +431,9 @@ header
 .les_mouettes_pic
 {
   width: 220px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   border-radius: 25px 25px 0px 0px;
   border: 4px solid #ffff
 }
@@ -437,9 +442,11 @@ header
 {
   background-color: #ffff;
   padding: 2px 20px;
-  padding-bottom: -10px;
   border-radius: 0px 0px 25px 25px;
   line-height: 25px;
+  height: 95px;
+  box-shadow: 0 0 25px -15px #444444;
+  border-radius: 25px 25px 25px 25px; 
 }
 
 .les_mouettes_stars
@@ -466,9 +473,9 @@ header
 .mere_pic
 {
   width: 220px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   border-radius: 25px 25px 0px 0px;
   border: 4px solid #ffff
 }
@@ -477,9 +484,11 @@ header
 {
   background-color: #ffff;
   padding: 2px 20px;
-  padding-bottom: -10px;
   border-radius: 0px 0px 25px 25px;
   line-height: 25px;
+  height: 95px;
+  box-shadow: 0 0 25px -15px #444444;
+  border-radius: 25px 25px 25px 25px; 
 }
 
 .hotel_mere_stars
@@ -505,9 +514,9 @@ header
 .panier_pic
 {
   width: 220px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   border-radius: 25px 25px 0px 0px;
   border: 4px solid #ffff
 }
@@ -516,9 +525,11 @@ header
 {
   background-color: #ffff;
   padding: 2px 20px;
-  padding-bottom: -10px;
   border-radius: 0px 0px 25px 25px;
   line-height: 25px;
+  height: 95px;
+  box-shadow: 0 0 25px -15px #444444;
+  border-radius: 25px 25px 25px 25px; 
 }
 
 .le_panier_stars
@@ -544,9 +555,9 @@ header
 .amina_pic
 {
   width: 220px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   border-radius: 25px 25px 0px 0px;
   border: 4px solid #ffff
 }
@@ -555,10 +566,13 @@ header
 {
   background-color: #ffff;
   padding: 2px 20px;
-  padding-bottom: -10px;
   border-radius: 0px 0px 25px 25px;
   line-height: 25px;
+  height: 95px;
+  box-shadow: 0 0 25px -15px #444444;
+  border-radius: 25px 25px 25px 25px;  
 }
+
 
 .chez_amina_stars
 {
@@ -577,7 +591,7 @@ header
   grid-column: 1 / 2;
   grid-row: 4 / 5;
   justify-self: start;
-  margin-top: -30px;
+  margin-top: -20px;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -604,9 +618,9 @@ header
 .title_and_graph
 {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -616,13 +630,15 @@ header
   justify-content: center;
   flex-direction: row;
   align-content: center;
-  margin-top: 10px;
+  margin-top: 8px;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+  border-radius: 25px 25px 25px 25px;  
 }
 
 .soleil_pic
 {
   width: 120px;
-  height: 136px;
+  height: 126px;
   object-fit: cover;
   margin-right: 0px;
   border-radius: 25px 0px 0px 25px;
@@ -631,7 +647,7 @@ header
 
 .soleil_bloc_text_and_stars 
 {
-  height: 141px;
+  height: 132px;
   width: 211px;
   background-color: #ffff;
   padding: 2px 0px 0px 20px;
@@ -645,7 +661,7 @@ header
 {
   display: flex;
   flex-direction: row;
-  margin-top: -5px;
+  margin-top: -10px;
   margin-left: -40px;
   list-style-type: none;
   color: #0065FC;
@@ -658,12 +674,14 @@ header
   justify-content: center;
   flex-direction: row;
   align-content: center;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+  border-radius: 25px 25px 25px 25px; 
 }
 
 .coeur_eau_pic
 {
   width: 120px;
-  height: 136px;
+  height: 126px;
   object-fit: cover;
   margin-right: 0px;
   border-radius: 25px 0px 0px 25px;
@@ -672,7 +690,7 @@ header
 
 .coeur_eau_bloc_text_and_stars 
 {
-  height: 141px;
+  height: 132px;
   width: 211px;
   background-color: #ffff;
   padding: 2px 0px 0px 20px;
@@ -686,6 +704,7 @@ header
 {
   display: flex;
   flex-direction: row;
+  margin-top: -10px;
   margin-left: -40px;
   list-style-type: none;
   color: #0065FC;
@@ -698,21 +717,23 @@ header
   justify-content: center;
   flex-direction: row;
   align-content: center;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+  border-radius: 25px 25px 25px 25px;           
 }
 
 .bleu_blanc_pic
 {
   width: 120px;
-  height: 136px;
+  height: 126px;
   object-fit: cover;
   margin-right: 0px;
   border-radius: 25px 0px 0px 25px;
-  border: 4px solid #ffff
+  border: 5px solid #ffff
 }
 
 .bleu_text_stars 
 {
-  height: 141px;
+  height: 134px;
   width: 211px;
   background-color: #ffff;
   padding: 2px 0px 0px 20px;
@@ -725,8 +746,9 @@ header
 {
   display: flex;
   flex-direction: row;
-  margin-top: -5px;
+  margin-top: -10px;
   margin-left: -40px;
   list-style-type: none;
   color: #0065FC;
 }
+
