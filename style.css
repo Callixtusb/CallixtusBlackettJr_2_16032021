@@ -2,7 +2,7 @@
 
 #bloc_page
 {
-  width: 1400px;
+  width: 1320px;
   margin: auto;
 }
 
@@ -21,6 +21,7 @@ header
   align-items: center;
   margin-top: 53px;
   margin-bottom: 51px;
+  max-width: 1300px;
 }
 
 /* Navigation bar block ///////////////////////////////////////////*/
@@ -612,7 +613,11 @@ header
   padding-bottom: 15px;
   padding-top: 20px;
   margin-left: 50px;
-  margin-bottom: 38px;  
+  margin-bottom: 38px;
+
+  position:relative;
+  z-index: 0;
+
 }
 
 .title_and_graph
@@ -718,7 +723,7 @@ header
   flex-direction: row;
   align-content: center;
   filter: drop-shadow(1px 1px 10px #4444442e);
-  border-radius: 25px 25px 25px 25px;           
+  border-radius: 25px 25px 25px 25px;        
 }
 
 .bleu_blanc_pic
@@ -752,3 +757,212 @@ header
   color: #0065FC;
 }
 
+/* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
+.activities_results
+{
+  display: flex;
+  flex-direction: row;
+
+  max-width: 1320px;
+  background-color: none;
+  border-radius: 15px;
+  padding: 0px 20px 20px 0px;
+  margin-bottom: 40px;
+}
+
+.bloc_vieuxPort_pomegues_and_Frioul
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: px;
+  position: relative;
+  margin-right: 40px;
+  margin-left: 0px;
+}
+
+.bloc_calanques_notreDame_and_Longchamp
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.bloc_pomegues_and_Frioul
+{
+  margin-top: 60px;
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*Image block - Vieux Port*/
+.vieuxPort_pic
+{
+  width: 300px;
+  height: 390px;
+  object-fit: cover;
+  object-position: 48% 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.vieuxPort_pic_and_text p
+{
+  background-color: #ffff;
+  padding: 15px 0px 0px 15px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -4px;
+  width: 285px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.vieuxPort_pic_and_text
+{
+  margin-right: 40px;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*Image block - Fort de Pomègues*/
+.fortPomegues_pic
+{
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  object-position: 48% 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.pomegues_pic_text p
+{
+  background-color: #ffff;
+  padding: 15px 0px 0px 15px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -4px;
+  width: 285px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.pomegues_pic_text
+{
+  filter: drop-shadow(1px 1px 10px #4444442e);
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*Image block - Iles du Frioul*/
+.ilesFrioul_pic
+{
+  width: 300px;
+  height: 120px;
+  object-fit: cover;
+  object-position: 48% 5%;
+  margin-bottom: px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.frioul_pic_text p
+{
+  background-color: #ffff;
+  padding: 15px 0px 0px 15px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -4px;
+  width: 285px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.frioul_pic_text
+{
+  margin-top: 45px;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*Image block - Parc National des Calanques*/
+.calanques_pic
+{
+  width: 300px;
+  height: 390px;
+  object-fit: cover;
+  object-position: 42% 45%;
+  margin-bottom: px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.calanques_pic_text p
+{
+  background-color: #ffff;
+  padding: 18px 0px 0px 15px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -4px;
+  width: 285px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.calanques_pic_text
+{
+  margin-right: 40px;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*Image block - Notre-Dame-de-la-Garde*/
+.notreDame_pic
+{
+  width: 300px;
+  height: 140px;
+  object-fit: cover;
+  object-position: 48% 15%;
+  margin-bottom: px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.notreDame_pic_text p
+{
+  background-color: #ffff;
+  padding: 15px 0px 0px 15px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -4px;
+  width: 285px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.notreDame_pic_text
+{
+  filter: drop-shadow(1px 1px 10px #4444442e);
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*Image block - Parc Longchamp*/
+.Longchamp_pic
+{
+  width: 300px;
+  height: 154px;
+  object-fit: cover;
+  object-position: 48% 15%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.Longchamp_pic_text p
+{
+  background-color: #ffff;
+  padding: 11px 0px 0px 15px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -4px;
+  width: 285px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Longchamp_pic_text
+{
+  margin-top: 45px;
+  filter: drop-shadow(1px 1px 10px #4444442e);
+}
