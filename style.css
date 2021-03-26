@@ -52,6 +52,13 @@ header
   color: #0065FC;
 } 
 
+.lien_inscrire
+{
+  padding-top: 63px;
+  color: #0065FC;
+  font-weight: bold;
+} 
+
 /* Centre ville text ///////////////////////////////////////////*/
 .centre_ville
 {
@@ -176,23 +183,23 @@ header
   position: absolute; 
   z-index: 8;
   bottom: -22px;
-  left: 23%;
+  left: 16%;
 } 
 
 
 .familiale
 { 
   width: 90px; 
-	padding: 10.5px 20px; 
-	border-radius: 30px; 
+  padding: 10.5px 20px; 
+  border-radius: 30px; 
   border: 2px solid #b8b7b7;
-	background: #ffff; 
-	position: absolute; 
-	color: #fff; 
-	text-align: right; 
-	color: black; 
+  background: #ffff; 
+  position: absolute; 
+  color: #fff; 
+  text-align: right; 
+  color: black; 
   bottom: -22px;
-  left: 24%;  
+  left: 17%;  
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -209,7 +216,7 @@ header
   position: absolute; 
   z-index: 7;
   bottom: -22px;
-  left: 43%;  
+  left: 30%;  
 } 
 
 
@@ -225,7 +232,7 @@ header
 	text-align: right; 
 	color: black; 
   bottom: -22px;
-  left: 44%;  
+  left: 31%;  
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -242,7 +249,7 @@ header
   position: absolute; 
   z-index: 6;
   bottom: -22px;
-  left: 66%; 
+  left: 45.6%; 
 } 
 
 .animaux
@@ -257,7 +264,7 @@ header
 	text-align: right; 
 	color: black; 
   bottom: -22px;
-  left: 66.5%; 
+  left: 46.5%; 
 }
 /* Info block ///////////////////////////////////////////*/
 .info
