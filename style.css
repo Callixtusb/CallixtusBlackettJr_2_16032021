@@ -135,6 +135,30 @@ header
   margin-right: 75px;
 }
 
+.economique:hover 
+{
+  background-color: #DEEBFF;
+}
+
+.familiale:hover 
+{
+  background-color: #DEEBFF;
+}
+
+.romantique:hover 
+{
+  background-color: #DEEBFF;
+}
+
+.romantique:hover 
+{
+  background-color: #DEEBFF;
+}
+
+.animaux:hover 
+{
+  background-color: #DEEBFF;
+}
 
 /*///////////////////////////////////////////////////////////*/
 .fa-money-bill-wave     /*icon class pour Economique*/
@@ -152,7 +176,6 @@ header
   bottom: -22px;
   left: 0%;
 } 
-
 
 .economique
 { 
@@ -186,7 +209,6 @@ header
   left: 16%;
 } 
 
-
 .familiale
 { 
   width: 90px; 
@@ -218,7 +240,6 @@ header
   bottom: -22px;
   left: 30%;  
 } 
-
 
 .romantique
 { 
@@ -305,8 +326,6 @@ header
 }
 
 
-
-
 /* Hebergement à Marseille photo block ///////////////////////////////////////////*/
 .block_lodging
 {
@@ -384,7 +403,6 @@ header
 }	
 
 	
-
 /*///////////////////////////////////////////////////////////*/
 .hotel_du_port      /*Image block - Hôtel du port*/
 {
