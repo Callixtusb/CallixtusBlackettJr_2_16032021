@@ -138,31 +138,31 @@ header
 .economique:hover 
 {
   background-color: #DEEBFF;
-  border: none;
+  border: solid #DEEBFF;
 }
 
 .familiale:hover 
 {
   background-color: #DEEBFF;
-  border: none;
+  border: solid #DEEBFF;
 }
 
 .romantique:hover 
 {
   background-color: #DEEBFF;
-  border: none;
+  border: solid #DEEBFF;
 }
 
 .romantique:hover 
 {
   background-color: #DEEBFF;
-  border: none;
+  border: solid #DEEBFF;
 }
 
 .animaux:hover 
 {
   background-color: #DEEBFF;
-  border: none;
+  border: solid #DEEBFF;
 }
 
 /*///////////////////////////////////////////////////////////*/
