@@ -138,33 +138,38 @@ header
 .economique:hover 
 {
   background-color: #DEEBFF;
+  border: none;
 }
 
 .familiale:hover 
 {
   background-color: #DEEBFF;
+  border: none;
 }
 
 .romantique:hover 
 {
   background-color: #DEEBFF;
+  border: none;
 }
 
 .romantique:hover 
 {
   background-color: #DEEBFF;
+  border: none;
 }
 
 .animaux:hover 
 {
   background-color: #DEEBFF;
+  border: none;
 }
 
 /*///////////////////////////////////////////////////////////*/
 .fa-money-bill-wave     /*icon class pour Economique*/
 {
   border-radius: 50%;
-  padding: 13px;
+  padding: 11.5px;
   width: 17px;
   text-align: center;
   vertical-align: middle;
@@ -180,14 +185,14 @@ header
 .economique
 { 
   width: 119px; 
-	padding: 10.5px 20px; 
-	border-radius: 30px; 
-  border: 2px solid #b8b7b7;
-	background: #ffff; 
-	position: absolute; 
-	color: #fff; 
-	text-align: right; 
-	color: black; 
+  padding: 10.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #b8b7b7;
+  background: #ffff; 
+  position: absolute; 
+  color: #fff; 
+  text-align: right; 
+  color: black; 
   bottom: -22px;
   left: 1%;
 }
@@ -196,7 +201,7 @@ header
  .fa-child     /*icon class pour Familiale*/
 {
   border-radius: 50%;
-  padding: 13px;
+  padding: 11.5px;
   width: 17px;
   text-align: center;
   vertical-align: middle;
@@ -214,7 +219,7 @@ header
   width: 90px; 
   padding: 10.5px 20px; 
   border-radius: 30px; 
-  border: 2px solid #b8b7b7;
+  border: 1.5px solid #b8b7b7;
   background: #ffff; 
   position: absolute; 
   color: #fff; 
@@ -228,7 +233,7 @@ header
  .fa-heart     /*icon class pour Romantique*/
 {
   border-radius: 50%;
-  padding: 13px;
+  padding: 11.5px;
   width: 17px;
   text-align: center;
   vertical-align: middle;
@@ -246,7 +251,7 @@ header
   width: 110px; 
 	padding: 10.5px 20px; 
 	border-radius: 30px; 
-  border: 2px solid #b8b7b7;
+  border: 1.5px solid #b8b7b7;
 	background: #ffff; 
 	position: absolute; 
 	color: #fff; 
@@ -260,7 +265,7 @@ header
  .fa-dog     /*icon class pour Animaux authorisés*/
 {
   border-radius: 50%;
-  padding: 13px;
+  padding: 11.5px;
   width: 17px;
   text-align: center;
   vertical-align: middle;
@@ -278,7 +283,7 @@ header
   width: 180px; 
 	padding: 10.5px 20px; 
 	border-radius: 30px; 
-  border: 2px solid #b8b7b7;
+  border: 1.5px solid #b8b7b7;
 	background: #ffff; 
 	position: absolute; 
 	color: #fff; 
