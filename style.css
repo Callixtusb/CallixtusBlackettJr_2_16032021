@@ -1,8 +1,8 @@
 
 
 
-@media (min-width: 1320px) {
-    #bloc_page 
+@media only screen and (min-width: 1320px) {
+    #bloc_page
     {
       width: 1320px;
       margin: auto;
@@ -10,7 +10,7 @@
     }
     
     
-    @media (min-width: 800px) {
+    @media only screen and (min-width: 800px) {
     body
     {
     font-family: railway, arial;
@@ -1113,58 +1113,67 @@
     }
     
     
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/  
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/ 
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
+    /*////////////////////////////////////////////////////////////////*/
     
     
     
-    
-    @media (max-width: 500px) {
-    body
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+    #bloc_page
+    {
+      width: 100%; 
+      margin: auto;
+    }
+      
+      body
     {
     font-family: railway, arial;
     font-weight: normal;
     }
     
-    header
-    {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 30px;
-      margin-bottom: 51px;
-      max-width: ;
-    }
-    
+      
       #logo
     {
       display: flex;
-      justify-content: space-between;
       flex-direction: row;
       align-items: center;
-      margin-top: 3px;
-      margin-bottom: 20px;
+      justify-content: space-between;
+      margin-left: 70px;
+      margin-right: 60px;
+      margin-top: 40px;
+      margin-bottom: 40px;
     }
     
-    .logo
-    {
-      margin-right: 185px;
-      margin-left: 0px;
-    }
       
     /* Navigation bar block //////////////(md screens)/////////////////////////////*/
     .navbar
     {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
       list-style-type: none;
+      text-align: center;
+      margin-left: 50px;
+      margin-right: 60px;
     }
     
     .lien_activite
     {
-      margin-right: 60px;
-      margin-left: 100px;
       text-decoration: none;
-      border-botom: ;
     }
     
     .lien_hebergement,.lien_activite
@@ -1186,33 +1195,40 @@
       .lien_inscrire
     {
       display: none;
-      text-decoration: none;
-      color: #0065FC;
-      font-weight: bold;
-      padding-top: 63px;
     }
-    
       
     .lien_inscrire_xs
     {
       text-decoration: none;
       color: #0065FC;
       font-weight: bold;
-      padding-top: px;
+      position: relative;
     }
       
     #search_section h1
     {
-      margin-left: 50px;
-      margin-top: -20px;
+      margin-top: 40px;
+      margin-left: 70px;
+      margin-right: 60px;
     }
+        
+    
+     #search_section
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+       
       
      /* Centre ville text ///////////////////////////////////////////*/
     .centre_ville
     {
-      margin-left: 50px;
+      margin: auto; 
       margin-top: -10px;
       margin-bottom: 25px;
+      margin-left: 70px;
+      margin-right: 60px;
     } 
       
     /* Form & input block ///////////////////////////////////////////*/
@@ -1220,7 +1236,9 @@
     {
       display: flex;
       flex-direction: row;
-      margin-left: 50px;
+       margin: auto; 
+      margin-left: 80px;
+      margin-right: 20px;
     }
         
     .fa-map-marker-alt
@@ -1267,10 +1285,15 @@
       
     /* Filter list block ///////////////////////////////////////////*/
     
+      .filter_list
+    {
+      margin-left: 70px;
+      margin-right: 60px;
+    }
     
     .filter_title_icons
     {
-      margin-left: 50px;
+      margin: auto; 
       margin-top: 35px;
       margin-bottom: 30px;
     }   
@@ -1280,7 +1303,7 @@
       display: flex;
       list-style-type: none;
       position: relative;
-      margin-left: 50px;
+      margin: auto; 
       margin-bottom: 170px;
     }
     
@@ -1368,7 +1391,7 @@
       position: absolute; 
       z-index: 8;
       bottom: -22px;
-      left: 45%;
+      left: 55%;
     } 
     
     .familiale
@@ -1383,7 +1406,7 @@
       text-align: right; 
       color: black; 
       bottom: -22px;
-      left: 46%;  
+      left: 56%;  
     }
     
     /*///////////////////////////////////////////////////////////*/
@@ -1456,6 +1479,8 @@
       flex-direction: row;
       align-items: center;
       margin-bottom: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
     }
     
     .fa-info
@@ -1470,7 +1495,7 @@
       border: 1px solid #b8b7b7;
       color: #0065FC;
       background-color: #ffff;
-      margin-left: 9.5%;
+      margin-left: 5.5%;
     }
     
     .info_text
@@ -1492,51 +1517,49 @@
       /* Hebergement à Marseille photo block ///////////////////////////////////////////*/
     .block_lodging
     {
-      max-width: 883px;
-      background: #F2F2F2;
-      border-radius: 15px;
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-bottom: 20px;
-      margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background: #ffff;
+      padding-bottom: 15px;
+      margin: auto;
       }
     
     
     .block_lodging_photos
     {
-      display: grid;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
-      grid-template-columns: 230px 230px 230px;
-      grid-template-rows: 80px 150px 250px 10px;
-      column-gap: 31px;
+      grid-template-columns: 230px;
+      grid-template-rows: 80px;
       row-gap: 21px;
       align-content: center;
     }
-    .lodging_title
+      
+    #lodging_title
     {
-      grid-column: 1 / span 2;
-      grid-row: 1 / 2;
-      justify-self: start;
-      align-self: end;
+      margin-left: 75px;
+      margin-bottom: 10px;
     }
     
     /*///////////////////////////////////////////////////////////*/
     .auberge_la_cannebiere     /*Image block - Auberge La Cannebière*/
     {
-      grid-column: 1 / 2;
-      grid-row: 2 / 3;
       justify-self: start;
       align-self: center;
+      filter: drop-shadow(1px 1px 10px #4444442e);
     }
     
     .auberge_pic
     {
-      width: 220px;
+      width: 331px;
       height: 100px;
       object-fit: cover;
       margin-bottom: -25px;
       border-radius: 25px 25px 0px 0px;
-      border: 4px solid #ffff
+      border: 5px solid #ffff
+       
     }
     
     .auberge_bloc_text_and_stars 
@@ -1569,20 +1592,19 @@
     /*///////////////////////////////////////////////////////////*/
     .hotel_du_port      /*Image block - Hôtel du port*/
     {
-      grid-column: 2 / 3;
-      grid-row: 2 / 3;
       justify-self: start;
       align-self: center; 
+      filter: drop-shadow(1px 1px 10px #4444442e);
     }
     
     .port_pic
     {
-      width: 220px;
+      width: 331px;
       height: 100px;
       object-fit: cover;
       margin-bottom: -25px;
       border-radius: 25px 25px 0px 0px;
-      border: 4px solid #ffff
+      border: 5px solid #ffff
     }
     
     .port_bloc_text_and_stars 
@@ -1611,20 +1633,19 @@
     /*///////////////////////////////////////////////////////////*/
     .hotel_les_mouettes      /*Image block - Hôtel les mouettes*/
     {
-      grid-column: 3 / 4;
-      grid-row: 2 / 3;
       justify-self: start;
       align-self: center;
+      filter: drop-shadow(1px 1px 10px #4444442e);
     }
     
     .les_mouettes_pic
     {
-      width: 220px;
+      width: 331px;
       height: 100px;
       object-fit: cover;
       margin-bottom: -25px;
       border-radius: 25px 25px 0px 0px;
-      border: 4px solid #ffff
+      border: 5px solid #ffff
     }
     
     .mouettes_bloc_text_and_stars 
@@ -1653,20 +1674,19 @@
     /*///////////////////////////////////////////////////////////*/
     .hotel_mere      /*Image block - Hôtel de la mère*/
     {
-      grid-column: 1 / 2;
-      grid-row: 3 / 4;
       justify-self: start;
       align-self: center;
+      filter: drop-shadow(1px 1px 10px #4444442e);
     }
     
     .mere_pic
     {
-      width: 220px;
+      width: 331px;
       height: 100px;
       object-fit: cover;
       margin-bottom: -25px;
       border-radius: 25px 25px 0px 0px;
-      border: 4px solid #ffff
+      border: 5px solid #ffff
     }
     
     .mere_bloc_text_and_stars 
@@ -1694,20 +1714,19 @@
     /*///////////////////////////////////////////////////////////*/
     .hotel_le_panier      /*Image block - Hôtel Le Panier*/
     {
-      grid-column: 2 / 3;
-      grid-row: 3 / 4;
       justify-self: start;
       align-self: center;
+      filter: drop-shadow(1px 1px 10px #4444442e);
     }
     
     .panier_pic
     {
-      width: 220px;
+      width: 331px;
       height: 100px;
       object-fit: cover;
       margin-bottom: -25px;
       border-radius: 25px 25px 0px 0px;
-      border: 4px solid #ffff
+      border: 5px solid #ffff
     }
     
     .panier_bloc_text_and_stars 
@@ -1735,15 +1754,14 @@
     /*///////////////////////////////////////////////////////////*/
     .hotel_chez_amina      /*Image block - Hôtel chez Amina*/
     {
-      grid-column: 3 / 4;
-      grid-row: 3 / 4;
       justify-self: start;
       align-self: center;
+      filter: drop-shadow(1px 1px 10px #4444442e);
     }
     
     .amina_pic
     {
-      width: 220px;
+      width: 331px;
       height: 100px;
       object-fit: cover;
       margin-bottom: -25px;
@@ -1777,10 +1795,9 @@
     /*///////////////////////////////////////////////////////////*/
     .afficher_plus      /*Read more link*/
     {
-      grid-column: 1 / 2;
-      grid-row: 4 / 5;
-      justify-self: start;
-      margin-top: -20px;
+      margin-left: 70px;
+      margin-top: 20px;
+      margin-bottom: 33px;
       text-decoration: none;
       color: black;
       font-weight: bold;
@@ -1793,17 +1810,12 @@
     {
       display: flex;
       flex-direction: column;
-      width: auto;
+      width: 100%;
       background: #F2F2F2;
-      border-radius: 15px;
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-bottom: 15px;
+      padding-bottom: 35px;
       padding-top: 20px;
       margin: auto;
       margin-bottom: 38px;
-    
-      position:relative;
       z-index: 0;
     
     }
@@ -1814,6 +1826,9 @@
       justify-content: space-between;
       flex-direction: row;
       align-items: center;
+      max-width: 331px;
+      margin-left: 70px;
+      margin-right: 60px;
     }
     
     /*///////////////////////////////////////////////////////////*/
@@ -1833,7 +1848,6 @@
       width: 120px;
       height: 126px;
       object-fit: cover;
-      margin-right: 0px;
       border-radius: 25px 0px 0px 25px;
       border: 4px solid #ffff
     }
@@ -1876,7 +1890,6 @@
       width: 120px;
       height: 126px;
       object-fit: cover;
-      margin-right: 0px;
       border-radius: 25px 0px 0px 25px;
       border: 4px solid #ffff
     }
@@ -1919,7 +1932,6 @@
       width: 120px;
       height: 126px;
       object-fit: cover;
-      margin-right: 0px;
       border-radius: 25px 0px 0px 25px;
       border: 5px solid #ffff
     }
@@ -1946,33 +1958,7 @@
     }
       
       
-      
-      
-        
-      
-      
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
+     /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
     .activities_results
     {
       display: flex;
@@ -2209,4 +2195,30 @@
      margin-left: -40px; 
      margin-top: -10px;
      line-height: 25px;
+    } 
+      
+        
+      
+      
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
