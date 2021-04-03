@@ -1691,6 +1691,7 @@ body
      color: #0065FC;
      font-weight: bold;
      position: relative;
+     margin-right: 10px;
  }
 
  #search_section h1 {
