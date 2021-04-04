@@ -1376,10 +1376,7 @@
        object-position: 48% 55%;
      }
      
-     .amina_bloc_text_and_stars 
-     {
-       /* width: 99.5%; */
-     }
+
      
      .amina_bloc_text_and_stars p strong
      {
@@ -1906,7 +1903,6 @@ body
      display: inline-block;
      flex-direction: column;
      margin-left: 15px;
-     margin-right: ;
      position: relative;
      }
     
@@ -2253,9 +2249,6 @@ body
 
 
 
- 
-
-}
 
 
 
