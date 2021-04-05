@@ -296,6 +296,26 @@
      }
 
 
+
+
+
+
+
+
+
+
+
+.hebergement_and_activities_results
+{
+margin-right: 8px;
+
+}
+
+
+
+
+
+
 /* Hebergement à Marseille photo block ///////////////////////////////////////////*/
 
 
@@ -1074,7 +1094,7 @@
 
 
 
-@media only screen and (min-width: 600px), (max-width: 375)
+@media only screen and (min-width: 600px)
 {
 
       header
@@ -1244,7 +1264,7 @@
       .fa-dog     /*icon class pour Animaux authorisés*/
      {
        bottom: -21.5px;
-       left: 54.6%; 
+       left: 54.6%;
      } 
      
      .animaux
@@ -1288,9 +1308,9 @@
        border-radius: 15px;
        padding-left: 30px;
        padding-right: 30px;
-       padding-bottom: 34px;
+       padding-bottom: 20px;
        margin-top: 30px;
-       margin-bottom: 25px;    
+       margin-bottom: 25px;
      }
  
     .block_lodging_photos
@@ -1350,6 +1370,7 @@
      column-gap: 4%;
      margin-left: 0%;
      margin-right: 0%;
+     margin-bottom: 30px;
    }
    
    .hotel_mere
@@ -1371,9 +1392,6 @@
     }
  
  
- 
- 
-   
    
      /*///////////////////////////////////////////////////////////*/
        /*Image block - Auberge La Cannebière*/
@@ -1480,8 +1498,7 @@
      {
        margin-bottom: 31px;
      }
-
-   
+ 
    
 /*///////////////////////////////////////////////////////////*/
             /*Image block - Au coeur de l'eau Chambres d'hôtes*/
@@ -1496,9 +1513,8 @@
      .afficher_plus      /*Read more link*/
      {
        margin-left: 10px;
+       
      }
-
-
 
 
 
@@ -1544,42 +1560,6 @@
      .notreDame_and_Longchamp {
        width: 100%;
      }
-
-     /*///////////////////////////////////////////////////////////*/
-     /*Image block - Vieux Port*/
-     
-
-    
-     
-     /*///////////////////////////////////////////////////////////*/
-     /*Image block - Fort de Pomègues*/
-     
-     
- 
-     
-     /*///////////////////////////////////////////////////////////*/
-     /*Image block - Iles du Frioul*/
-     
-     
-     /*///////////////////////////////////////////////////////////*/
-     /*Image block - Parc National des Calanques*/
-     
-     
-     /*///////////////////////////////////////////////////////////*/
-     /*Image block - Notre-Dame-de-la-Garde*/
-
-     
-     
-     
-    
-     /*///////////////////////////////////////////////////////////*/
-     /*Image block - Parc Longchamp*/
-     
-         
-    
-     
-     /* Footer block ////////////////////////////////////////////////////////////////*/
-     
      
      
      
@@ -1908,7 +1888,6 @@ body
     .auberge_la_cannebiere
     {
      filter: drop-shadow(1px 1px 10px #4444442e);
-     /* margin-bottom: 20px; */
      width: 95.5%;
      margin: auto;
      padding-bottom: 20px;
@@ -1916,7 +1895,7 @@ body
  
      .auberge_pic
      {
-       width: 95%;
+       width: 94.5%;
      }
 
      .auberge_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
@@ -1926,27 +1905,23 @@ body
      .hotel_du_port
      {
       filter: drop-shadow(1px 1px 10px #4444442e);
-      /* margin-bottom: 20px; */
       width: 94.5%;
       margin: auto;
-      /* width: 94.5%; */
-      /* margin: auto; */
       padding-bottom: 20px;
      }
      
      .port_pic
      {
-       width: 95%;
+       width: 94.5%;
      }
 
-     .port_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
+     .port_bloc_text_and_stars {width: 97.5%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
            /*Image block - Hôtel les mouettes*/
      
      .hotel_les_mouettes
      {
       filter: drop-shadow(1px 1px 10px #4444442e);
-      /* margin-bottom: 20px; */
       width: 94.5%;
       margin: auto;
       padding-bottom: 20px;
@@ -1955,7 +1930,7 @@ body
      
      .les_mouettes_pic
      {
-       width: 95%;
+       width: 94.5%;
        object-position: 65% 55%;
      }
 
@@ -1967,7 +1942,6 @@ body
      .hotel_mere
      {
       filter: drop-shadow(1px 1px 10px #4444442e);
-      /* margin-bottom: 20px; */
       width: 94.5%;
       margin: auto;
       padding-bottom: 20px;
@@ -1975,7 +1949,7 @@ body
 
      .mere_pic
      {
-       width: 95%;
+       width: 94.5%;
        object-position: 65% 55%;
      }
      
@@ -1986,7 +1960,6 @@ body
     .hotel_le_panier
      {
       filter: drop-shadow(1px 1px 10px #4444442e);
-      /* margin-bottom: 20px; */
       width: 94.5%;
       margin: auto;
       padding-bottom: 20px;
@@ -1995,7 +1968,7 @@ body
      
      .panier_pic
      {
-       width: 95%;
+       width: 94.5%;
        object-position: 65% 55%;
      }
 
@@ -2009,12 +1982,11 @@ body
       filter: drop-shadow(1px 1px 10px #4444442e);
       width: 94.5%;
       margin: auto;
-      /* padding-bottom: 20px; */
      }
      
      .amina_pic
      {
-       width: 95%;
+       width: 94.5%;
        object-position: 65% 55%;
      }
      
@@ -2062,8 +2034,6 @@ body
 
    
    
-     
-   
 
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
@@ -2076,6 +2046,7 @@ body
         display: flex;
         flex-direction: column;
         margin: auto;
+        margin-right: 10px;
      }
 
     
@@ -2171,11 +2142,11 @@ body
      /*Image block - Parc National des Calanques*/
      .calanques_pic
      {
-     width: 90%;
-      height: 130px;
-      object-fit: cover;
-      object-position: 48% 55%;
-      border-radius: 15px 15px 0px 0px;
+     width: 89%;
+     height: 130px;
+     object-fit: cover;
+     object-position: 48% 55%;
+     border-radius: 15px 15px 0px 0px;
      }
      
      .calanques_pic_text p 
@@ -2184,7 +2155,7 @@ body
      padding: 15px 0px 0px 15px;
      border-radius: 0px 0px 20px 20px;
      margin-top: -4px;
-     width: 90%;
+     width: 89%;
      height: 46px;
      font-weight: bold;
      font-size: 14px;
@@ -2226,13 +2197,6 @@ body
 
 
 
-
-
-
-     
-     
-     
-     }
      
      
      /*////////////////////////////////////////////////////////////////*/
@@ -2251,22 +2215,4 @@ body
      /*////////////////////////////////////////////////////////////////*/
      /*////////////////////////////////////////////////////////////////*/
      
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
 
