@@ -842,13 +842,22 @@
 
 /*///////////////////////////////////////////////////////////*/
      /*Image block - Vieux Port*/
+     .vieuxPort_pic
+     {
+       width: 100%;
+       height: 315px;
+       object-fit: cover;
+       object-position: 48% 55%;
+       border-radius: 20px 20px 0px 0px;
+     }
+
      .vieuxPort_pic_and_text p
      {
        background-color: #ffff;
        padding: 15px 0px 0px 15px;
        border-radius: 0px 0px 20px 20px;
        margin-top: -4px;
-       width: 90%;
+       width: 99.9%;
        height: 46px;
        font-weight: bold;
        font-size: 14px;
@@ -857,6 +866,8 @@
      
      .vieuxPort_pic_and_text
      {
+       margin-right: 25px;
+       width: 100%;
        filter: drop-shadow(1px 1px 10px #4444442e);
      }
      
@@ -864,13 +875,22 @@
 
  /*///////////////////////////////////////////////////////////*/
      /*Image block - Fort de Pomègues*/
+     .fortPomegues_pic
+     {
+       width: 100%;
+       height: 145px;
+       object-fit: cover;
+       object-position: 48% 40%;
+       border-radius: 20px 20px 0px 0px;
+     }
+
      .pomegues_pic_text p
      {
        background-color: #ffff;
        padding: 15px 0px 0px 15px;
        border-radius: 0px 0px 20px 20px;
        margin-top: -4px;
-       width: 93%;
+       width: 93.9%;
        height: 30px;
        font-weight: bold;
        font-size: 14px;
@@ -884,13 +904,22 @@
 
  /*///////////////////////////////////////////////////////////*/
      /*Image block - Iles du Frioul*/
-      .frioul_pic_text p
+     .ilesFrioul_pic
+     {
+       width: 100%;
+       height: 100px;
+       object-fit: cover;
+       object-position: 48% 0%;
+       border-radius: 20px 20px 0px 0px;
+     }
+     
+     .frioul_pic_text p
      {
        background-color: #ffff;
        padding: 15px 0px 0px 15px;
        border-radius: 0px 0px 20px 20px;
        margin-top: -4px;
-       width: 93%;
+       width: 93.9%;
        height: 30px;
        font-weight: bold;
        font-size: 14px;
@@ -898,19 +927,27 @@
      
      .frioul_pic_text
      {
-       margin-bottom: 25px;
        filter: drop-shadow(1px 1px 10px #4444442e);
      }
 
       /*///////////////////////////////////////////////////////////*/
      /*Image block - Parc National des Calanques*/
+     .calanques_pic
+     {
+       width: 100%;
+       height: 315px;
+       object-fit: cover;
+       object-position: 42% 45%;
+       border-radius: 20px 20px 0px 0px;
+      }
+
      .calanques_pic_text p
      {
        background-color: #ffff;
        padding: 15px 0px 0px 15px;
        border-radius: 0px 0px 20px 20px;
        margin-top: -4px;
-       width: 93%;
+       width: 93.9%;
        height: 30px;
        font-weight: bold;
        font-size: 14px;
@@ -918,20 +955,29 @@
      
      .calanques_pic_text
      {
-       margin-bottom: 25px;
+       margin-right: 25px;    
+       width: 100%;   
        filter: drop-shadow(1px 1px 10px #4444442e);
      }
 
 /*///////////////////////////////////////////////////////////*/
      /*Image block - Notre-Dame-de-la-Garde*/
-    
+         .notreDame_pic
+     {
+       width: 100%;
+       height: 140px;
+       object-fit: cover;
+       object-position: 48% 0%;
+       border-radius: 20px 20px 0px 0px;
+     }
+
      .notreDame_pic_text p
      {
        background-color: #ffff;
        padding: 15px 0px 0px 15px;
        border-radius: 0px 0px 20px 20px;
        margin-top: -4px;
-       width: 93%;
+       width: 93.9%;
        height: 35px;
        font-weight: bold;
        font-size: 14px;
@@ -947,14 +993,22 @@
 
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Parc Longchamp*/
-    
+    .Longchamp_pic
+     {
+       width: 100%;
+       height: 100px;
+       object-fit: cover;
+       object-position: 48% 35%;
+       border-radius: 20px 20px 0px 0px;
+     }
+
      .Longchamp_pic_text p
      {
        background-color: #ffff;
        padding: 11px 0px 0px 15px;
        border-radius: 0px 0px 20px 20px;
        margin-top: -4px;
-       width: 93%;
+       width: 93.9%;
        height: 35px;
        font-weight: bold;
        font-size: 14px;
@@ -967,6 +1021,16 @@
      }
      
      /* Footer block ////////////////////////////////////////////////////////////////*/
+     footer
+     {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       padding-top: 40px;
+       background-color: #F2F2F2;
+       height: 180px;
+       margin-top: 7px;
+     }
      
      footer li
      {
@@ -1375,9 +1439,7 @@
        width: 95.5%;
        object-position: 48% 55%;
      }
-     
-
-     
+    
      .amina_bloc_text_and_stars p strong
      {
       font-size: 12px;
@@ -1485,122 +1547,39 @@
 
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Vieux Port*/
-     .vieuxPort_pic
-     {
-       width: 100%;
-       height: 365px;
-       object-fit: cover;
-       object-position: 48% 45%;
-       border-radius: 20px 20px 0px 0px;
-     }
+     
 
-     .vieuxPort_pic_and_text
-     {
-       margin-right: 25px;
-       width: 100%;
-     }
+    
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Fort de Pomègues*/
-     .fortPomegues_pic
-     {
-       width: 100%;
-       height: 150px;
-       object-fit: cover;
-       object-position: 48% 45%;
-       border-radius: 20px 20px 0px 0px;
-     }
-        
-     .pomegues_pic_text
-     {
-       filter: drop-shadow(1px 1px 10px #4444442e);
-     }
+     
+     
+ 
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Iles du Frioul*/
-     .ilesFrioul_pic
-     {
-       width: 100%;
-       height: 145px;
-       object-fit: cover;
-       object-position: 48% 5%;
-       border-radius: 20px 20px 0px 0px;
-     }
      
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Parc National des Calanques*/
-     .calanques_pic
-     {
-       width: 100%;
-       height: 365px;
-       object-fit: cover;
-       object-position: 42% 45%;
-       border-radius: 20px 20px 0px 0px;
-      }
-       
-     .calanques_pic_text
-     {
-       margin-right: 25px;    
-       width: 100%;
-     }
+     
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Notre-Dame-de-la-Garde*/
-     .notreDame_pic
-     {
-       width: 100%;
-       height: 140px;
-       object-fit: cover;
-       object-position: 48% 15%;
-       border-radius: 20px 20px 0px 0px;
-     }
+
      
-     .notreDame_pic_text p
-     {
-       background-color: #ffff;
-       padding: 15px 0px 0px 15px;
-       border-radius: 0px 0px 20px 20px;
-       margin-top: -4px;
-       width: 94%;
-       height: 35px;
-       font-weight: bold;
-       font-size: 14px;
-     }
      
-     .notreDame_pic_text
-     {
-       filter: drop-shadow(1px 1px 10px #4444442e);
-       width: 100%;
-     }
      
+    
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Parc Longchamp*/
-     .Longchamp_pic
-     {
-       width: 100%;
-       height: 151px;
-       object-fit: cover;
-       object-position: 48% 15%;
-       border-radius: 20px 20px 0px 0px;
-     }
+     
          
-     .Longchamp_pic_text
-     {
-       width: 100%;
-     }
+    
      
      /* Footer block ////////////////////////////////////////////////////////////////*/
-     footer
-     {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-evenly;
-       padding-top: 40px;
-       background-color: #F2F2F2;
-       height: 180px;
-       margin-top: 7px;
-     }
+     
      
      
      
@@ -1902,7 +1881,7 @@ body
      padding-bottom: 45px;
      display: inline-block;
      flex-direction: column;
-     margin-left: 15px;
+     margin-left: 9px;
      position: relative;
      }
     
@@ -1930,17 +1909,17 @@ body
     {
      filter: drop-shadow(1px 1px 10px #4444442e);
      /* margin-bottom: 20px; */
-     width: 94.5%;
+     width: 95.5%;
      margin: auto;
      padding-bottom: 20px;
     }
  
      .auberge_pic
      {
-       width: 89.6%;
+       width: 95%;
      }
 
-     .auberge_bloc_text_and_stars {width: 92%;box-sizing: border-box;}
+     .auberge_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
  /*///////////////////////////////////////////////////////////*/
           /*Image block - Hôtel du port*/
      
@@ -1957,10 +1936,10 @@ body
      
      .port_pic
      {
-       width: 89.6%;
+       width: 95%;
      }
 
-     .port_bloc_text_and_stars {width: 92%;box-sizing: border-box;}
+     .port_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
            /*Image block - Hôtel les mouettes*/
      
@@ -1976,12 +1955,12 @@ body
      
      .les_mouettes_pic
      {
-       width: 89.6%;
+       width: 95%;
        object-position: 65% 55%;
      }
 
      
-     .mouettes_bloc_text_and_stars {width: 92%;box-sizing: border-box;}
+     .mouettes_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
           /*Image block - Hôtel de la mère*/
      
@@ -1996,11 +1975,11 @@ body
 
      .mere_pic
      {
-       width: 89.6%;
+       width: 95%;
        object-position: 65% 55%;
      }
      
-     .mere_bloc_text_and_stars {width: 92%;box-sizing: border-box;}
+     .mere_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
           /*Image block - Hôtel Le Panier*/
     
@@ -2016,12 +1995,12 @@ body
      
      .panier_pic
      {
-       width: 89.6%;
+       width: 95%;
        object-position: 65% 55%;
      }
 
    
-     .panier_bloc_text_and_stars {width: 92%;box-sizing: border-box;}
+     .panier_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
            /*Image block - Hôtel chez Amina*/
      
@@ -2035,11 +2014,11 @@ body
      
      .amina_pic
      {
-       width: 89.6%;
+       width: 95%;
        object-position: 65% 55%;
      }
      
-     .amina_bloc_text_and_stars {width: 92%;box-sizing: border-box;}
+     .amina_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
 
    
    
@@ -2091,111 +2070,143 @@ body
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
       
 
-      #activities_section {
-          margin-left: px;
-          margin-right: px;
-          }
-
-
-
 
      .activities_results 
      {
         display: flex;
         flex-direction: column;
-        /* margin-left: 8px; */
         margin: auto;
      }
 
     
      /*///////////////////////////////////////////////////////////*/
-     /*Image block - Vieux Port*/
-     .vieuxPort_pic
+     /*Image block - images commun*/
+     .ilesFrioul_pic, 
+     .notreDame_pic, .Longchamp_pic
      {
        width: 95%;
        height: 130px;
        object-fit: cover;
        object-position: 48% 25%;
        border-radius: 15px 15px 0px 0px;
-       /* margin: auto; */
-       /* margin-left: 0px; */
+       box-sizing: border-box;
      }
-   
-     .vieuxPort_pic_and_text
+
+     .vieuxPort_pic_and_text, .pomegues_pic_text, 
+     .frioul_pic_text, .calanques_pic_text, .notreDame_pic_text, 
+     .Longchamp_pic_text
      {
-       /* margin-bottom: 30px; */
-       /* margin: auto; */
        margin-left: 20px;
-       /* margin-right: 0px; */
-       padding-bottom: 20px;
-       /* margin-left: 0px; */
-       /* margin-right: 0px; */
      }
      
+     .pomegues_pic_text p, 
+     .frioul_pic_text p, .notreDame_pic_text p,
+     .Longchamp_pic_text p
+     {
+       background-color: #ffff;
+       padding: 15px 0px 0px 15px;
+       border-radius: 0px 0px 20px 20px;
+       margin-top: -4px;
+       width: 95%;
+       height: 46px;
+       font-weight: bold;
+       font-size: 14px;
+       box-sizing: border-box;
+     }
+
+
+     /*///////////////////////////////////////////////////////////*/
+     /*Image block - Vieux Port*/
+     .vieuxPort_pic
+     {
+      width: 90%;
+      height: 130px;
+      object-fit: cover;
+      object-position: 48% 15%;
+      border-radius: 15px 15px 0px 0px;
+     }
+
+     .vieuxPort_pic_and_text p 
+     {
+      background-color: #ffff;
+      padding: 15px 0px 0px 15px;
+      border-radius: 0px 0px 20px 20px;
+      margin-top: -4px;
+      width: 90%;
+      height: 46px;
+      font-weight: bold;
+      font-size: 14px;
+      box-sizing: border-box;  
+      margin-bottom: 20px;       
+      }
+
+
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Fort de Pomègues*/
+     
      .fortPomegues_pic
      {
-       width: 97%;
-       height: 130px;
-       object-fit: cover;
-       object-position: 48% 45%;
-       border-radius: 20px 20px 0px 0px;
+      width: 95%;
+      height: 130px;
+      object-fit: cover;
+      object-position: 48% 55%;
+      border-radius: 15px 15px 0px 0px;
      }
      
-     .pomegues_pic_text
+     .pomegues_pic_text p
      {
-       margin-bottom: 25px;
+      margin-bottom: 20px;         
      }
-     
+
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Iles du Frioul*/
-     .ilesFrioul_pic
-     {
-       width: 97%;
-       height: 130px;
-       object-fit: cover;
-       object-position: 48% 5%;
-       border-radius: 20px 20px 0px 0px;
-     }
      
+     .frioul_pic_text p
+     {
+      margin-bottom: 20px;         
+     }
  
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Parc National des Calanques*/
      .calanques_pic
      {
-       width: 97%;
-       height: 130px;
-       object-fit: cover;
-       object-position: 42% 45%;
-       border-radius: 20px 20px 0px 0px;
+     width: 90%;
+      height: 130px;
+      object-fit: cover;
+      object-position: 48% 55%;
+      border-radius: 15px 15px 0px 0px;
      }
      
-     
+     .calanques_pic_text p 
+     {
+     background-color: #ffff;
+     padding: 15px 0px 0px 15px;
+     border-radius: 0px 0px 20px 20px;
+     margin-top: -4px;
+     width: 90%;
+     height: 46px;
+     font-weight: bold;
+     font-size: 14px;
+     box-sizing: border-box;
+      margin-bottom: 20px;
+     }
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Notre-Dame-de-la-Garde*/
      .notreDame_pic
      {
-       width: 97%;
-       height: 130px;
        object-fit: cover;
        object-position: 48% 15%;
-       border-radius: 20px 20px 0px 0px;
      }
-     
      
      
      /*///////////////////////////////////////////////////////////*/
      /*Image block - Parc Longchamp*/
      .Longchamp_pic
      {
-       width: 97%;
-       height: 151px;
        object-fit: cover;
-       object-position: 48% 15%;
-       border-radius: 20px 20px 0px 0px;
+       object-position: 48% 25%         
      }
      
      
@@ -2204,11 +2215,11 @@ body
      {
        display: flex;
        flex-direction: column;
-       padding-top: 20px;
-       padding-bottom: 20px;
+       padding-top: 120px;
+       padding-bottom: 120px;
        padding-left: 30px;
        background-color: #F2F2F2;
-       margin-top: 7px;
+       margin-top: 20px;
      }
 
 
@@ -2248,6 +2259,8 @@ body
 
 
 
+
+ 
 
 
 
