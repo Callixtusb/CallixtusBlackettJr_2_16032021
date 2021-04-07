@@ -10,11 +10,7 @@
 
 
 /* Navigation bar block //////////////////////////////////////////*/
- .navbar 
- {
-     display: flex;
-     list-style-type: none;
- }
+ 
 
  .lien_hebergement,.lien_activite 
  {
@@ -628,15 +624,15 @@
   .title_and_graph
   {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
   }
   
 .title_and_graph h3
   {
-  font-size: 16px; 
-  
+  font-size: 16px;
+  /* margin-left: 10px; */
   }
 
   .block_populaire
@@ -1108,6 +1104,8 @@ body
    /* Navigation bar block //////////////////////////////////////////*/
  .navbar 
  {
+     display: flex;
+     list-style-type: none;
      align-content: flex-end;
      padding: 0;        
  }
@@ -1147,9 +1145,11 @@ body
      margin-left: 40px; 
   }
 
- .lien_inscrire {
-     display: none;
- }
+ .lien_inscrire
+  {
+    display: none;
+    list-style-type: none;
+  }
 
  .lien_inscrire_xs {
      text-decoration: none;
@@ -1158,6 +1158,16 @@ body
      position: relative;
      margin-right: 20px;
  }
+
+  .logo_main {display: none;}
+  .lien_activite1{display: none;}
+  .lien_hebergement1{display: none;}
+  .lien_hebergement1,.lien_activite1{display: none;}
+  .lien_hebergement1{display: none;}
+  .lien_inscrire1{display: none;}
+  .navbar_main{list-style-type:none;}
+
+
 
  #search_section h1 {
      margin-top: 40px;
@@ -1506,8 +1516,15 @@ body
 /*///// Plus populaire photo block /////    //////    //////   //////    //////*/
   .title_and_graph
   {
-   margin-right: 20px;
+    margin-top: -0px;
+    padding-top: 0px;
+    margin-left: -10%;
+  }
 
+  .fa-chart-line
+  {
+   margin-left: 20%;
+    
   }
   
   .block_populaire
@@ -1759,70 +1776,88 @@ body
    margin: auto;
 }
 
-   #logo {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     margin-left: 30px;
-     margin-right: 15px;
-     margin-top: 50px;
-     margin-bottom: 20px;
- }
-  
-   /* Navigation bar block //////////////////////////////////////////*/
- .navbar 
- {
-     align-content: flex-end;
-     padding: 0;        
- }
+  #logo{display:none;}
+  .bar_under{display:none;}
+  .bar_under_activities{display:none;}
 
-
- .bar_under
- {
-    width: 50%;
-    border-bottom: 2px solid #0065FC;
-    height: 40px;
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    padding: 0;
- }
-
- .bar_under_activities
- {
-    width: 50%;
-    border-bottom: 2px solid #eee;
-    height: 40px;
-    display: flex;
-    justify-content: start;
-    margin: 0;
-    padding: 0;
- }
-
-
- .lien_activite
+   .header_main
   {
-   margin-left: 95px;    
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  /* Navigation bar block ///////////////////////////////////////////*/
+  .navbar_main
+  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   
+  }
+  
+  .logo_main
+  {
+   margin-left: 30px;
+      
   }
 
- .lien_hebergement 
- {
-     margin-left: 90px; 
+  .lien_activite1
+  {
+    margin-right: 68px;
+    margin-left: 67px;
   }
 
- .lien_inscrire {
-     display: none;
- }
+  .lien_hebergement1
+  {
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;
+  } 
 
- .lien_inscrire_xs {
+  .lien_hebergement1,.lien_activite1 
+  {
      text-decoration: none;
+     color: black;
+  }
+
+  .lien_hebergement1 
+  {
      color: #0065FC;
-     font-weight: bold;
-     position: relative;
-     margin-right: 60px;
- }
+   }
+
+.lien_inscrire1
+  {
+    color: #0065FC;
+    font-weight: bold;
+    text-decoration: none;
+    
+  } 
+
+
+  .lien_inscrire_main
+  {
+    display: none;
+  }
+
+  
+  .lien_inscrire_xs
+  {
+    display: none;
+  }
+
+
+.lien_inscrire
+  {
+    display: none;
+    list-style-type: none;
+  }
+
+   
 
  #search_section h1 {
      box-sizing: border-box;
@@ -2036,14 +2071,24 @@ body
   margin-left: 20px;
   }
 
+  .bloc_cannebiere_port_Mouettes
+  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 20px;
+ }
 
  .bloc_mere_panier_amina
  {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
+  column-gap: 20px;
  }
 
 
@@ -2053,7 +2098,7 @@ body
  .auberge_la_cannebiere
  {
   filter: drop-shadow(1px 1px 10px #4444442e);
-  width: 94.5%;
+  width: 33%;
   margin: auto;
   padding-bottom: 20px;
  }
@@ -2063,14 +2108,14 @@ body
     width: 94.5%;
   }
 
-  .auberge_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
+  .auberge_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel du port*/
   
   .hotel_du_port
   {
    filter: drop-shadow(1px 1px 10px #4444442e);
-   width: 94.5%;
+   width: 33%;
    margin: auto;
    padding-bottom: 20px;
   }
@@ -2080,15 +2125,15 @@ body
     width: 94.5%;
   }
 
-  .port_bloc_text_and_stars {width: 97.5%;box-sizing: border-box;}
+  .port_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel les mouettes*/
   
   .hotel_les_mouettes
   {
    filter: drop-shadow(1px 1px 10px #4444442e);
-   width: 94.5%;
-   margin: auto;
+   width: 33%;
+   /* margin: auto; */
    padding-bottom: 0px;
   }
   
@@ -2100,14 +2145,14 @@ body
   }
 
   
-  .mouettes_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
+  .mouettes_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel de la mère*/
   
   .hotel_mere
   {
    filter: drop-shadow(1px 1px 10px #4444442e);
-   width: 94.5%;
+   width: 33%;
    margin: auto;
    margin-top: 5px;
    padding-bottom: 5px;
@@ -2119,14 +2164,14 @@ body
     object-position: 65% 55%;
   }
   
-  .mere_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
+  .mere_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel Le Panier*/
  
  .hotel_le_panier
   {
    filter: drop-shadow(1px 1px 10px #4444442e);
-   width: 94.5%;
+   width: 33%;
    margin: auto;
    margin-top: 5px;
   }
@@ -2139,14 +2184,14 @@ body
   }
 
 
-  .panier_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
+  .panier_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel chez Amina*/
   
   .hotel_chez_amina
   {
    filter: drop-shadow(1px 1px 10px #4444442e);
-   width: 94.5%;
+   width: 33%;
    margin: auto;
    margin-bottom: 0px;
    margin-top: 5px;
@@ -2158,7 +2203,7 @@ body
     object-position: 65% 55%;
   }
   
-  .amina_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
+  .amina_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
 
 
 
@@ -2174,7 +2219,18 @@ body
 /*///// Plus populaire photo block /////    //////    //////   //////    //////*/
 /*///// Plus populaire photo block /////    //////    //////   //////    //////*/
   
+.title_and_graph
+  {
+    margin-top: -0px;
+    padding-top: 0px;
+    margin-left: 2%;
+  }
 
+  .fa-chart-line
+  {
+   margin-left: -5%;
+    
+  }
 
   .block_populaire
   {
@@ -2470,8 +2526,6 @@ body
     margin: 0 auto;
 }
 
-
-
   #logo{display:none;}
   .bar_under{display:none;}
   .bar_under_activities{display:none;}
@@ -2512,7 +2566,7 @@ body
   .lien_hebergement1
   {
     border-top: 2px solid #0065FC;
-    padding-top: 50px;
+    padding-top: 33px;
   } 
 
   .lien_hebergement1,.lien_activite1 
@@ -2542,6 +2596,11 @@ body
     
   } 
 
+  .lien_inscrire
+  {
+    display: none;
+    list-style-type: none;
+  }
 
   .lien_inscrire_main
   {
@@ -2553,6 +2612,7 @@ body
   {
     display: none;
   }
+    
     
   
   /* Centre ville text ///////////////////////////////////////////*/
@@ -2719,10 +2779,10 @@ body
   {
     display: flex;
     justify-content: center;
-    align-content: baseline;
+    /* align-content: baseline; */
     flex-direction: row;
     column-gap: 20px;
-    /* align-items: baseline; */
+    align-items: center;
   }
   
   
@@ -2945,8 +3005,15 @@ body
 
   .title_and_graph
   {
-margin-top: -0px;
+    margin-top: -0px;
     padding-top: 0px;
+    margin-left: 0%;
+  }
+
+  .fa-chart-line
+  {
+   margin-left: 40%;
+    
   }
 
   .block_populaire
@@ -3047,7 +3114,7 @@ margin-top: -0px;
     flex-direction: row;
     margin-top: 60px;
     width: 50%;
-    margin-right: 40px;
+    margin-right: 0px;
   }
   
   .bloc_pomegues_and_Frioul
@@ -3069,9 +3136,11 @@ margin-top: -0px;
     padding-top: 40px;
     background-color: #F2F2F2;
     width: 100%;
+    max-width: 992px;
     margin-top: 0px;
     padding-left: 5px;
     padding-bottom: 0px;
+    margin: 0 auto;
   }
   
   footer li
