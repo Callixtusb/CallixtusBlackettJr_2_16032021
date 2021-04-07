@@ -1,13 +1,8 @@
 
-   
-       
-  
 
   *{
     font-family: 'Raleway', sans-serif;
  }
-
-
 
 /* Navigation bar block //////////////////////////////////////////*/
  
@@ -282,8 +277,6 @@
   }
 
 
-
-
 /* Hebergement à Marseille photo block ///////////////////////////////////////////*/
 
 
@@ -310,7 +303,6 @@
   {
     color: #b8b7b7;
   }	
-
 
 
 /*///////////////////////////////////////////////////////////*/
@@ -353,7 +345,6 @@
     margin-left: -40px;
     list-style-type: none;
     color: #0065FC;
-
   }
   
 .auberge_bloc_text_and_stars p strong
@@ -366,7 +357,6 @@
   {
    font-size: 12px;
   }
-
 
 
 /*///////////////////////////////////////////////////////////*/
@@ -415,7 +405,6 @@
   }
 
 
-
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel les mouettes*/
   
@@ -461,8 +450,6 @@
   {
    font-size: 12px;
   }
-
-
 
   /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel de la mère*/
@@ -561,7 +548,6 @@
   }
 
 
-
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel chez Amina*/
   
@@ -607,8 +593,6 @@
   }
 
 
-
-
 /*///////////////////////////////////////////////////////////*/
   .afficher_plus      /*Read more link*/
   {
@@ -616,7 +600,6 @@
     color: black;
     font-weight: bold;
   }
-
 
 
 /*///// Plus populaire photo block /////    //////    //////   //////    //////*/
@@ -632,7 +615,6 @@
 .title_and_graph h3
   {
   font-size: 16px;
-  /* margin-left: 10px; */
   }
 
   .block_populaire
@@ -649,7 +631,6 @@
     padding-top: 15px;
     margin-top: 31px;
   }
-
 
 /*///////////////////////////////////////////////////////////*/
   .hotel_soleil_du_matin     /*Image block - Hôtel Le soleil du matin*/
@@ -713,7 +694,6 @@
    font-size: 12px;
   }
 
-
 /*///////////////////////////////////////////////////////////*/
   .coeur_eau     /*Image block - Au coeur de l'eau Chambres d'hôtes*/
   {
@@ -768,7 +748,6 @@
    font-weight: bold;
    font-size: 12px;
   }
-
 
 .coeur_eau_bloc_text_and_stars p
   {
@@ -872,8 +851,6 @@
     width: 100%;
     filter: drop-shadow(1px 1px 10px #4444442e);
   }
-  
-
 
 /*///////////////////////////////////////////////////////////*/
   /*Image block - Fort de Pomègues*/
@@ -991,8 +968,6 @@
     margin-bottom: 25px;
   }
 
-
-
   /*///////////////////////////////////////////////////////////*/
   /*Image block - Parc Longchamp*/
  .Longchamp_pic
@@ -1054,11 +1029,6 @@
 
 
 
-
-
-
-
-
   /*////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////////////////////////////////////*/
@@ -1076,7 +1046,6 @@
   /*////////////////////////////////////////////////////////////////*/
   
   
-  
   /* Extra small devices (phones, 375px and down) */
 @media only screen and (max-width: 375px)  {
 
@@ -1087,7 +1056,9 @@ body
    justify-content: center;
    width: 100%;
    box-sizing: border-box;
-   margin: auto;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
 }
 
    #logo {
@@ -1109,7 +1080,6 @@ body
      align-content: flex-end;
      padding: 0;        
  }
-
 
  .bar_under
  {
@@ -1167,8 +1137,6 @@ body
   .lien_inscrire1{display: none;}
   .navbar_main{list-style-type:none;}
 
-
-
  #search_section h1 {
      margin-top: 40px;
      margin-left: 20px;
@@ -1180,9 +1148,7 @@ body
      flex-direction: column;
      justify-content: center;
  }
-
-    
-  
+ 
   /* Centre ville text ///////////////////////////////////////////*/
 
  .centre_ville {
@@ -1200,7 +1166,6 @@ body
      margin-right: 0px;
  }
 
-
  #myInput 
  {
      width: 225px;
@@ -1217,13 +1182,11 @@ body
     width: 40px;
   }
 
-
  .rechercher 
  {
      display: none;
  }
   
-
 
   /* Filter list block ///////////////////////////////////////////*/
 
@@ -1248,7 +1211,6 @@ body
      color: black;
  }
   
-
   
   /*///////////////////////////////////////////////////////////*/
   .fa-money-bill-wave     /*icon class pour Economique*/
@@ -1361,7 +1323,6 @@ body
     background: #ffff;
     padding-bottom: 35px;
     margin-top: 30px;
-
   }
 
  .block_lodging_photos
@@ -1371,7 +1332,6 @@ body
   flex-direction: column;
   margin-left: 15px;
   position: relative;
-
   }
  
    
@@ -1400,7 +1360,6 @@ body
   width: 95%;
   margin: auto;
   padding-bottom: 20px;
- 
  }
 
   .auberge_pic
@@ -1437,13 +1396,11 @@ body
    padding-bottom: 20px;
   }
   
-  
   .les_mouettes_pic
   {
     width: 95%;
     object-position: 65% 55%;
   }
-
   
   .mouettes_bloc_text_and_stars {width: 97.2%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
@@ -1474,14 +1431,12 @@ body
    margin: auto;
    padding-bottom: 20px;
   }
-
   
   .panier_pic
   {
     width: 94.5%;
     object-position: 65% 55%;
   }
-
 
   .panier_bloc_text_and_stars {width: 97.3%;box-sizing: border-box;}
 /*///////////////////////////////////////////////////////////*/
@@ -1503,7 +1458,6 @@ body
   .amina_bloc_text_and_stars {width: 97.2%;box-sizing: border-box;}
 
 
-
 /*///////////////////////////////////////////////////////////*/
   .afficher_plus      /*Read more link*/
   {
@@ -1523,8 +1477,7 @@ body
 
   .fa-chart-line
   {
-   margin-left: 20%;
-    
+   margin-left: 20%; 
   }
   
   .block_populaire
@@ -1549,7 +1502,6 @@ body
   .soleil_bloc_text_and_stars 
   {
     margin-bottom: 21px;
-
   }
 
 
@@ -1559,9 +1511,7 @@ body
   .coeur_eau
   {
   width: 95%;
-
   }
-
 
   .coeur_eau_bloc_text_and_stars 
   {
@@ -1577,13 +1527,9 @@ body
    }
 
 
-
-
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
-   
-
 
   .activities_results 
   {
@@ -1591,7 +1537,6 @@ body
      flex-direction: column;
      margin: auto;
   }
-
  
   /*///////////////////////////////////////////////////////////*/
   /*Image block - images commun*/
@@ -1734,14 +1679,14 @@ body
     padding-left: 30px;
     background-color: #F2F2F2;
     margin-top: 20px;
-    /* margin: auto; */
+    position: absolute;
+    left: 0;
+    width: 100%;
   }
 
 }
 
 
-
-  
   
   /*////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////////////////////////////////////*/
@@ -1759,8 +1704,6 @@ body
   /*////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////////////////////////////////////*/
   
-
-
   
   
   /* Small devices (portrait tablets and large phones, 375px and up) */
@@ -1838,7 +1781,6 @@ body
     
   } 
 
-
   .lien_inscrire_main
   {
     display: none;
@@ -1858,7 +1800,6 @@ body
   }
 
    
-
  #search_section h1 {
      box-sizing: border-box;
      margin-top: 40px;
@@ -1873,8 +1814,6 @@ body
      justify-content: center;
  }
 
-    
-  
   /* Centre ville text ///////////////////////////////////////////*/
 
  .centre_ville {
@@ -1916,7 +1855,6 @@ body
  }
   
 
-
   /* Filter list block ///////////////////////////////////////////*/
 
   .filter_list {
@@ -1941,7 +1879,6 @@ body
  }
   
 
-  
   /*///////////////////////////////////////////////////////////*/
   .fa-money-bill-wave     /*icon class pour Economique*/
   {
@@ -2105,7 +2042,7 @@ body
 
   .auberge_pic
   {
-    width: 94.5%;
+    width: 94%;
   }
 
   .auberge_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
@@ -2122,7 +2059,7 @@ body
   
   .port_pic
   {
-    width: 94.5%;
+    width: 93.5%;
   }
 
   .port_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
@@ -2140,7 +2077,7 @@ body
   
   .les_mouettes_pic
   {
-    width: 94.5%;
+    width: 93.5%;
     object-position: 65% 55%;
   }
 
@@ -2176,7 +2113,6 @@ body
    margin-top: 5px;
   }
 
-  
   .panier_pic
   {
     width: 94.5%;
@@ -2204,8 +2140,6 @@ body
   }
   
   .amina_bloc_text_and_stars {width: 97%;box-sizing: border-box;}
-
-
 
 /*///////////////////////////////////////////////////////////*/
   .afficher_plus      /*Read more link*/
@@ -2246,9 +2180,6 @@ body
          border-radius: 0px;
   }
 
-
-
-
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel Le soleil du matin*/
 
@@ -2263,8 +2194,6 @@ body
   {
     margin-bottom: 21px;
   }
-
-
 
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Au coeur de l'eau Chambres d'hôtes*/
@@ -2281,8 +2210,6 @@ body
 
   }
 
-  
-
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel Tout bleu et Blanc*/
    
@@ -2293,23 +2220,19 @@ body
    margin: auto;
    }
 
-
-
-
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
    
 
-
   .activities_results 
   {
      display: flex;
      flex-direction: column;
-     margin-left: 20px
+     margin-left: 20px;
+     width: 100%;
   }
 
- 
    .bloc_vieuxPort_pomegues_and_Frioul
    {
      display: flex;
@@ -2326,9 +2249,13 @@ body
    .bloc_calanques_notreDame_and_Longchamp
    {
      display: flex;
-     flex-direction: row; 
-     column-gap: -25px; 
-     margin-top: 0px      
+     flex-direction: row;
+     column-gap: -25px;
+     margin-top: 0px;
+     /* position: absolute; */
+     /* left: 0; */
+     /* width: 100%; */
+     /* margin: 0px; */
    }
 
    .notreDame_and_Longchamp
@@ -2336,7 +2263,6 @@ body
    margin-left: px;
 
    }
-
 
   /*///////////////////////////////////////////////////////////*/
   /*Image block - images commun*/
@@ -2356,7 +2282,6 @@ body
     font-size: 14px;
     box-sizing: border-box;
   }
-
 
   /*///////////////////////////////////////////////////////////*/
   /*Image block - Vieux Port*/
@@ -2388,7 +2313,6 @@ body
    box-sizing: border-box;  
    margin-bottom: 20px;       
    }
-
 
   /*///////////////////////////////////////////////////////////*/
   /*Image block - Fort de Pomègues*/
@@ -2424,7 +2348,6 @@ body
    margin-bottom: 20px;         
   }
 
-  
   /*///////////////////////////////////////////////////////////*/
   /*Image block - Parc National des Calanques*/
   .calanques_pic
@@ -2468,7 +2391,6 @@ body
     border-radius: 15px 15px 0px 0px;
   }
   
-  
   /*///////////////////////////////////////////////////////////*/
   /*Image block - Parc Longchamp*/
   .Longchamp_pic
@@ -2491,12 +2413,14 @@ body
     padding-left: 30px;
     background-color: #F2F2F2;
     margin-top: 20px;
+    /* position: absolute; */
+    /* left: 0; */
+    width: 100%;
   }
 
 
 
 }
-
 
 
 
@@ -2548,13 +2472,11 @@ body
    list-style-type: none;
    text-decoration: none;
    color: black;
-   
   }
   
   .logo_main
   {
-   margin-left: 30px;
-      
+   margin-left: 30px;   
   }
 
   .lien_activite1
@@ -2593,7 +2515,6 @@ body
     color: #0065FC;
     font-weight: bold;
     text-decoration: none;
-    
   } 
 
   .lien_inscrire
@@ -2612,8 +2533,7 @@ body
   {
     display: none;
   }
-    
-    
+     
   
   /* Centre ville text ///////////////////////////////////////////*/
   .centre_ville
@@ -2633,15 +2553,13 @@ body
   #myInput
   {
     width: 200px;
-
   }
   
   .rechercher_icon 
   {
     display: none;
   }
-
-    
+  
   .rechercher
   {
    display: inline;
@@ -2808,14 +2726,12 @@ body
   width: 100%;
   margin-bottom: -4px;
   }
- 
    
   #lodging_title
   {
   font-size: 16px;
   margin-top: 25px;
   }
-
 
  .bloc_cannebiere_port_Mouettes 
  {
@@ -2849,7 +2765,6 @@ body
    margin: 0px;
  }
 
-
 .bloc_mere_panier_amina
 {
   display: flex;
@@ -2882,13 +2797,12 @@ body
  }
 
 
-
   /*///////////////////////////////////////////////////////////*/
     /*Image block - Auberge La Cannebière*/
   
   .auberge_pic
   {
-    width: 95.5%;
+    width: 95.2%;
     height: 75px;
   }
 
@@ -2898,30 +2812,29 @@ body
    box-sizing: border-box;
    line-height: 1.4;
  }
-  
-      
+       
   /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel du port*/
   
   .port_pic
   {
-    width: 95.5%;
+    width: 95.2%;
     height: 75px;
   }
 
   .port_bloc_text_and_stars
   {
    width: 99.8%;
-   box-sizing: border-box;  
+   box-sizing: border-box;
+   line-height: 1.4;
   }
-
 
   /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel les mouettes*/
   
   .les_mouettes_pic
   {
-    width: 95.5%;
+    width: 95.2%;
     height: 75px;
     object-position: 48% 55%;
   }
@@ -2929,17 +2842,16 @@ body
    .mouettes_bloc_text_and_stars
   {
    width: 99.8%;
-   box-sizing: border-box;  
+   box-sizing: border-box;
+   line-height: 1.4;
   }
-  
-
 
 /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel de la mère*/
   
   .mere_pic
   {
-    width: 95.5%;
+    width: 95.2%;
     height: 75px;
     object-position: 48% 55%;
   }
@@ -2947,16 +2859,16 @@ body
   .mere_bloc_text_and_stars
   {
    width: 99.8%;
-   box-sizing: border-box;  
+   box-sizing: border-box;
+   line-height: 1.4;
   }
-
   
 /*///////////////////////////////////////////////////////////*/
        /*Image block - Hôtel Le Panier*/
   
   .panier_pic
   {
-    width: 95.5%;
+    width: 95.2%;
     height: 75px;
     object-position: 48% 55%;
   }
@@ -2964,17 +2876,16 @@ body
   .panier_bloc_text_and_stars
   {
    width: 99.8%;
-   box-sizing: border-box;  
+   box-sizing: border-box;
+   line-height: 1.4;
   }
-
-
 
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel chez Amina*/
   
   .amina_pic
   {
-    width: 95.5%;
+    width: 95.2%;
     height: 75px;
     object-position: 48% 55%;
   }
@@ -2982,7 +2893,8 @@ body
   .amina_bloc_text_and_stars
   {
    width: 99.8%;
-   box-sizing: border-box;  
+   box-sizing: border-box;
+   line-height: 1.4;
   }
 
 
@@ -2996,7 +2908,6 @@ body
    font-size: 12px;
   }
 
-  
   
 /*///// Plus populaire photo block /////    //////    //////   //////    //////*/
 /*///// Plus populaire photo block /////    //////    //////   //////    //////*/
@@ -3012,8 +2923,7 @@ body
 
   .fa-chart-line
   {
-   margin-left: 40%;
-    
+   margin-left: 40%;  
   }
 
   .block_populaire
@@ -3031,7 +2941,6 @@ body
     box-sizing: border-box;
   }
 
-
 /*///////////////////////////////////////////////////////////*/
         /*Image block - Hôtel Le soleil du matin*/
 
@@ -3047,7 +2956,6 @@ body
     margin-bottom: 31px;
   }
 
-
 /*///////////////////////////////////////////////////////////*/
          /*Image block - Au coeur de l'eau Chambres d'hôtes*/
 
@@ -3058,9 +2966,9 @@ body
    }
 
   .coeur_eau_bloc_text_and_stars 
-  {
+   {
     margin-bottom: 31px;
-  }
+   }
 
 /*///////////////////////////////////////////////////////////*/
          /*Image block - Hôtel Tout Bleu et Blanc*/
@@ -3071,17 +2979,12 @@ body
    margin-bottom: -2px;
    }
 
-
-  
 /*///////////////////////////////////////////////////////////*/
   .afficher_plus      /*Read more link*/
   {
     margin-left: 10px;
     padding-bottom: 10px;
   }
-
-
-
 
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
 /* Activites à Marseille photo block ////////////////////////////////////////////////////////////////*/
@@ -3141,6 +3044,9 @@ body
     padding-left: 5px;
     padding-bottom: 0px;
     margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   
   footer li
