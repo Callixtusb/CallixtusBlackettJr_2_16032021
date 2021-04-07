@@ -1716,7 +1716,7 @@ body
    justify-content: center;
    width: 100%;
    box-sizing: border-box;
-   margin: auto;
+   margin: 0 auto;
 }
 
   #logo{display:none;}
@@ -3038,15 +3038,9 @@ body
     justify-content: space-evenly;
     padding-top: 40px;
     background-color: #F2F2F2;
-    width: 100%;
-    max-width: 992px;
     margin-top: 0px;
     padding-left: 5px;
     padding-bottom: 0px;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
   }
   
   footer li
