@@ -7,7 +7,7 @@
 
 #bloc_page
 {
-    max-width: 1024px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -405,6 +405,7 @@ body{margin: 0px;}
  .bloc_cannebiere_port_Mouettes 
  {
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
@@ -446,7 +447,7 @@ body{margin: 0px;}
 
   .auberge_la_cannebiere
   {
-    width: 100%;
+    width: 33%;
     height: 143px;
     margin-bottom: 20px;
    }
@@ -504,7 +505,7 @@ body{margin: 0px;}
 
    .hotel_du_port
    {
-    width: 100%;
+    width: 33%;
     height: 143px;
    }
 
@@ -559,7 +560,7 @@ body{margin: 0px;}
   
   .hotel_les_mouettes
   {
-    width: 100%;
+    width: 33%;
     height: 143px;
   }
 
@@ -611,7 +612,7 @@ body{margin: 0px;}
 
   .hotel_mere
   {
-    width: 100%;
+    width: 33%;
     height: 143px;
   }
 
@@ -663,8 +664,8 @@ body{margin: 0px;}
  
  .hotel_le_panier
   {
-   width: 100%;
-   height: 143px
+   width: 33%;
+   height: 143px;
   }
 
   .panier_pic
@@ -716,7 +717,7 @@ body{margin: 0px;}
   
   .hotel_chez_amina
   {
-    width: 100%;
+    width: 33%;
     height: 143px;
   }
 
@@ -801,6 +802,7 @@ body{margin: 0px;}
     padding-right: 40px;
     padding-bottom: 0px;
     padding-top: 15px;
+    margin-bottom: 30px;
   }
 
 /*///////////////////////////////////////////////////////////*/
@@ -1257,13 +1259,51 @@ body{margin: 0px;}
   /*////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////////////////////////////////////*/  
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/ 
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
-  /*////////////////////////////////////////////////////////////////*/
+ 
+
+ @media only screen and (max-width: 576px)  {
+
+.filter_menu {
+  flex-wrap: wrap;}
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 992px)  {
+
+.hebergement_and_activities_results 
+{
+  flex-direction:column-reverse;
+  align-items:center;
+}
+
+.block_populaire
+{
+  flex-direction:row;
+  justify-content:center;
+  width: 100%;
+}
+
+.title_and_graph
+{
+  align-self:baseline;
+  
+}
+
+
+
+
+
+
+ }
