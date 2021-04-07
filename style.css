@@ -12,6 +12,9 @@
     margin: 0 auto;
 }
 
+body{margin: 0px;}
+
+
 /* Navigation bar block //////////////////////////////////////////*/
 
     .header_main
@@ -32,6 +35,8 @@
    text-decoration: none;
    color: black;
   }
+
+  .navbar{list-style-type:none;}
 
   .lien_hebergement1,.lien_activite1 
   {
@@ -131,7 +136,7 @@
   {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   
   .filter_title_icons
@@ -356,7 +361,7 @@
   {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   
   
@@ -1004,7 +1009,7 @@
     flex-direction: row;
     background-color: none;
     border-radius: 15px;
-    padding: 0px 20px 20px 0px;
+    padding: 0px 0px 20px 0px;
     width: 100%;
     /* margin-left: 50px; */
   }
