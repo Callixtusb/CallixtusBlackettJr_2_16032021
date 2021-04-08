@@ -146,15 +146,20 @@ body{margin: 0px;}
   
   #filter_menu
   {
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 100%;
+
     list-style-type: none;
-    position: relative;
+    margin-left: -80px;
+    flex-wrap: wrap;
   }
   
   .economique,.familiale,.romantique,.animaux
   {
     font-size: 14px;
+    margin-right:0px;
+    margin-bottom: 20px;
   }
 
  .economique,.familiale,.romantique,.animaux {
@@ -174,15 +179,15 @@ body{margin: 0px;}
   .fa-money-bill-wave     /*icon class pour Economique*/
   {
     border-radius: 50%;
-    padding: 12.5px;
-    width: 41px;
+    padding: 12.6px;
+    width: 40px;
     vertical-align: middle;
     color: #0065FC;
     background-color: #DEEBFF;
-    position: absolute; 
+    position: relative; 
     z-index: 9;
-    bottom: -21.5px;
-    left: 0%;
+    bottom: 0.5px;
+    left: 18%;
   } 
   
   .economique
@@ -191,12 +196,8 @@ body{margin: 0px;}
     border-radius: 30px; 
     border: 1.5px solid #b8b7b7;
     background: #ffff; 
-    position: absolute; 
-    text-align: right; 
-    color: black; 
-    width: 145px; 
-    bottom: -22px;
-    left: 1%;
+    padding-left: 40px; 
+    color: black;
   }
   
   .economique:hover
@@ -205,12 +206,8 @@ body{margin: 0px;}
     border-radius: 30px; 
     border: 1.5px solid #DEEBFF;
     background: #DEEBFF; 
-    position: absolute; 
-    text-align: right; 
+    padding-left: 40px; 
     color: black;
-    width: 145px; 
-    bottom: -22px;
-    left: 1%;
   }
 
 
@@ -218,14 +215,15 @@ body{margin: 0px;}
    .fa-child     /*icon class pour Familiale*/
   {
     border-radius: 50%;
-    padding: 12.5px;
-    width: 41px;
+    padding: 12.6px;
+    width: 40px;
+    vertical-align: middle;
     color: #0065FC;
     background-color: #DEEBFF;
-    position: absolute; 
+    position: relative; 
     z-index: 8;
-    bottom: -21.5px;
-    left: 22%;
+    bottom: 0.5px;
+    left: 21%;
   } 
   
   .familiale
@@ -233,13 +231,9 @@ body{margin: 0px;}
     padding: 11.5px 20px; 
     border-radius: 30px; 
     border: 1.5px solid #b8b7b7;
-    background: #ffff; 
-    position: absolute; 
-    text-align: right; 
+    background: #ffff;
+    padding-left: 38px; 
     color: black;
-    width: 110px;
-    bottom: -22px;
-    left: 23%;
   }
   
   .familiale:hover
@@ -248,12 +242,8 @@ body{margin: 0px;}
     border-radius: 30px; 
     border: 1.5px solid #DEEBFF;
     background: #DEEBFF; 
-    position: absolute; 
-    text-align: right; 
+    padding-left: 38px; 
     color: black;
-    width: 110px; 
-    bottom: -22px;
-    left: 23%;
   }
 
 
@@ -261,14 +251,15 @@ body{margin: 0px;}
    .fa-heart     /*icon class pour Romantique*/
   {
     border-radius: 50%;
-    padding: 12.5px;
-    width: 41px;
+    padding: 12.6px;
+    width: 40px;
+    vertical-align: middle;
     color: #0065FC;
     background-color: #DEEBFF;
-    position: absolute; 
+    position: relative; 
     z-index: 7;
-    bottom: -21.5px;
-    left: 39.5%;
+    bottom: 0.5px;
+    left: 21%;
   } 
   
   .romantique
@@ -276,13 +267,9 @@ body{margin: 0px;}
     padding: 11.5px 20px; 
     border-radius: 30px; 
     border: 1.5px solid #b8b7b7;
-    background: #ffff; 
-    position: absolute; 
-    text-align: right; 
+    background: #ffff;  
+    padding-left: 45px; 
     color: black;
-    width: 140px; 
-    bottom: -22px;
-    left: 40.5%; 
   }
   
   .romantique:hover
@@ -291,26 +278,23 @@ body{margin: 0px;}
     border-radius: 30px; 
     border: 1.5px solid #DEEBFF;
     background: #DEEBFF; 
-    position: absolute; 
-    text-align: right; 
-    color: black;
-    width: 140px;
-    bottom: -22px;
-    left: 40.5%;    
+    padding-left: 45px; 
+    color: black;   
   }
 
 /*///////////////////////////////////////////////////////////*/
    .fa-dog     /*icon class pour Animaux authorisés*/
   {
     border-radius: 50%;
-    padding: 12.5px;
-    width: 41px;
+    padding: 12.6px;
+    width: 40px;
+    vertical-align: middle;
     color: #0065FC;
     background-color: #DEEBFF;
-    position: absolute; 
+    position: relative; 
     z-index: 6;
-    bottom: -21.5px;
-    left: 60.6%;
+    bottom: 0.5px;
+    left: 15%;
   } 
   
   .animaux
@@ -319,12 +303,8 @@ body{margin: 0px;}
     border-radius: 30px; 
     border: 1.5px solid #b8b7b7;
     background: #ffff; 
-    position: absolute; 
-    text-align: right; 
+    padding-left: 40px; 
     color: black;
-    width: 190px; 
-    bottom: -22px;
-    left: 61.5%; 
   }
   
   .animaux:hover 
@@ -333,12 +313,8 @@ body{margin: 0px;}
     border-radius: 30px; 
     border: 1.5px solid #DEEBFF;
     background: #DEEBFF; 
-    position: absolute; 
-    text-align: right; 
-    color: black; 
-    width: 190px; 
-    bottom: -22px;
-    left: 61.5%;
+    padding-left: 40px; 
+    color: black;
   }
 
 
@@ -1289,21 +1265,27 @@ body{margin: 0px;}
 }
 
 
-
-
  }
 
 
 
 @media only screen and (max-width: 576px)  {
 
-.filter_menu 
+.filter_list
 {
-  display: flex;
-  flex-wrap: wrap;
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+.filter_title_icons
+{
+  margin-bottom: 0px;
 }
 
 
+
+/*////////////////Hebergement a Marseille///////////////////*/
 .block_lodging
 {
  background: #ffffff;
@@ -1352,9 +1334,5 @@ body{margin: 0px;}
 
 
  }
-
-
-
-
 
 
