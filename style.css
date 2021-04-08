@@ -149,10 +149,10 @@ body{margin: 0px;}
     display: flex;
     align-items: center;
     width: 100%;
-
     list-style-type: none;
     margin-left: -80px;
     flex-wrap: wrap;
+    gap: 16px;
   }
   
   .economique,.familiale,.romantique,.animaux
@@ -1239,6 +1239,27 @@ body{margin: 0px;}
 
  @media only screen and (max-width: 992px) {
 
+/*/////////////////////////Recherche//////////////////////////*/
+
+ #search_section 
+ {
+  margin-left: 20px;
+  margin-right: 0p;
+ }
+
+ /*/////////////////////////Filters///////////////////////////*/
+.filter_list
+{
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filter_title_icons
+{
+  margin-bottom: 0px;
+}
+
+/*////////////////Hebergement a Marseille///////////////////*/
 .hebergement_and_activities_results 
 {
   flex-direction:column-reverse;
@@ -1246,16 +1267,14 @@ body{margin: 0px;}
 
 .block_lodging
 {
- width: auto;
-
+  width: auto;
 }
 
+/*////////////////Les plus Populaires///////////////////*/
 .block_populaire
 {
   flex-direction:column;
-
   width: 100%;
-
 }
 
 .title_and_graph
@@ -1265,74 +1284,184 @@ body{margin: 0px;}
 }
 
 
+
  }
 
 
+  /*////////////////////////////////////////////////////////////////*/
+  /*////////////////////////////////////////////////////////////////*/
+  /*////////////////////////////////////////////////////////////////*/
+  /*////////////////////////////////////////////////////////////////*/
+  /*////////////////////////////////////////////////////////////////*/
 
 @media only screen and (max-width: 576px)  {
 
-.filter_list
-{
-flex-direction: column;
-align-items: flex-start;
-
-}
-
-.filter_title_icons
-{
-  margin-bottom: 0px;
-}
 
 
+/*///////////////////////////Header////////////////////////////*/
+   #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
 
-/*////////////////Hebergement a Marseille///////////////////*/
-.block_lodging
-{
- background: #ffffff;
-}
+ .navbar 
+ {
+    display: flex;
+    list-style-type: none;
+    align-content: flex-end;
+    padding: 0;        
+ }
 
+ .bar_under
+ {
+    width: 50%;
+    border-bottom: 2px solid #0065FC;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+ }
 
-.auberge_la_cannebiere, .hotel_du_port, 
-.hotel_les_mouettes, .hotel_mere, .hotel_le_panier, .hotel_chez_amina
-{
- width: 100%; 
- margin-bottom: 20px;
+ .bar_under_activities
+ {
+    width: 50%;
+    border-bottom: 2px solid #eee;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+ }
 
-}
+  .lien_hebergement,.lien_activite 
+  {
+   text-decoration: none;
+   color: black;
+  }
 
-.bloc_cannebiere_port_Mouettes
-{
- flex-direction:column;
- align-content:space-around;
-}
+ .lien_activite
+  {
+   margin-left: 35%;    
 
+  }
 
-.bloc_mere_panier_amina
-{
- flex-direction:column;
- align-items:center;
-}
+ .lien_hebergement 
+ {
+   margin-left: 30%;
+   color: #0065FC;
+  }
 
+ .lien_inscrire
+  {
+    display: none;
+    list-style-type: none;
+  }
 
+ .lien_inscrire_xs {
+   display: revert;
+   text-decoration: none;
+   color: #0065FC;
+   font-weight: bold;
+   position: relative;
+   margin-right: 20px;
+  }
 
-.block_populaire
-{
- flex-direction:column;
- border-radius: 0px;
- width: 100%;
- margin-bottom: 0px;
-}
+  .logo_main {display: none;}
+  .lien_activite1{display: none;}
+  .lien_hebergement1{display: none;}
+  .lien_hebergement1,.lien_activite1{display: none;}
+  .lien_hebergement1{display: none;}
+  .lien_inscrire1{display: none;}
+  .navbar_main{list-style-type:none;}
 
-.title_and_graph
-{
- justify-content: space-betwee;
+/*////////////////Recherche///////////////////*/
 
-}
-
-
-
-
-
+ .rechercher 
+ {
+  display: none;
  }
 
 
+ #search_section 
+  {
+   margin-left: 30px;
+   margin-right: 0p;
+  }
+
+  #myInput 
+  {
+   width: 225px;
+  }
+
+  .rechercher_icon
+  {
+   display: revert;
+   border: 0px;
+   border-radius: 10px 10px 10px 10px;
+   padding: 11px;
+   color: #ffff;
+   background-color: #0065FC;
+   margin-left: -6px;
+   width: 40px;
+  }
+
+/*////////////////Filters/////////////////////////////*/
+  .filter_list
+  {
+   flex-direction: column;
+   align-items: flex-start;
+  }
+
+  .filter_title_icons
+  {
+   margin-bottom: 0px;
+  }
+
+/*////////////////Hebergement a Marseille///////////////////*/
+  .block_lodging
+  {
+   background: #ffffff;
+  }
+
+  .auberge_la_cannebiere, .hotel_du_port, 
+  .hotel_les_mouettes, .hotel_mere, .hotel_le_panier, .hotel_chez_amina
+  {
+  width: 100%; 
+  margin-bottom: 20px;
+  }
+
+  .bloc_cannebiere_port_Mouettes
+  {
+  flex-direction:column;
+  align-content:space-around;
+  }
+
+ .bloc_mere_panier_amina
+  {
+  flex-direction:column;
+  align-items:center;
+  }
+
+/*////////////////Les plus Populaires///////////////////*/
+ .block_populaire
+  {
+  flex-direction:column;
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+  }
+
+ .title_and_graph
+  {
+  justify-content: space-betwee;
+  }
+
+
+ }
