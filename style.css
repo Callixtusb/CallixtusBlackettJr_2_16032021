@@ -66,7 +66,6 @@ body{margin: 0px;}
   .lien_inscrire_main{display: none;}
   .lien_inscrire_xs {display: none;}
      
-
   #logo{display:none;}
   .bar_under{display:none;}
   .bar_under_activities{display:none;}
@@ -100,6 +99,12 @@ body{margin: 0px;}
  
  #myInput {width: 200px;}
   
+
+::placeholder { 
+     color: #060606;
+     font-size:14px;
+     font-weight:bold; 
+}
 
  .rechercher {
      border: 0px;
@@ -144,8 +149,7 @@ body{margin: 0px;}
  .economique,.familiale,.romantique,.animaux {
      text-decoration: none;
      font-weight: bold;
- }
-
+  }
 
   .economique:hover, familiale:hover, romantique:hover, animaux:hover {
     background-color: #DEEBFF;
