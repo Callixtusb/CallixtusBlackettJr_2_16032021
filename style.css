@@ -1294,6 +1294,8 @@ flex-direction: row-reverse;
   .block_lodging {
    background: #ffffff;
    margin-bottom: 0px;
+   padding-left: 20px;
+   padding-right: 20px;
   }
 
   .auberge_la_cannebiere, .hotel_du_port, 
