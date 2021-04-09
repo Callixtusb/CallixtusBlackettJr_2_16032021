@@ -329,7 +329,6 @@ body{margin: 0px;}
     padding-left: 13px;
     padding-right: 31px;
     padding-bottom: 30px;
-    margin-top: px;
     margin-bottom: 30px;
     padding-top: 11px;
     box-sizing: content-box;
@@ -414,7 +413,6 @@ body{margin: 0px;}
   
   .auberge_bloc_text_and_stars p strong {
    font-size: 12px;
-   line-height: -5;
   }
 
   .auberge_bloc_text_and_stars p {
@@ -704,7 +702,6 @@ body{margin: 0px;}
   }
   
   .hotel_soleil_du_matin > a:nth-child(1)  {
-    padding-right: -5px;
     width: 58%;
   }
 
@@ -760,7 +757,6 @@ body{margin: 0px;}
   }
   
   .coeur_eau > a:nth-child(1) {
-    padding-right: -5px;
     width: 58%;
   }
 
@@ -816,7 +812,6 @@ body{margin: 0px;}
   }
 
   .bleu_blanc > a:nth-child(1) {
-    padding-right: -5px;
     width: 58%;
 }
   
@@ -873,7 +868,7 @@ body{margin: 0px;}
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    background-color: none;
+    background-color: #ffff;
     border-radius: 15px;
     padding: 0px 0px 20px 0px;
     width: 100%;
@@ -887,7 +882,6 @@ body{margin: 0px;}
   .bloc_vieuxPort_pomegues_and_Frioul {
     display: flex;
     flex-direction: row;
-    margin-top: px;
     margin-left: 0px;
     width: 50%;
     column-gap: 25px;
@@ -1108,7 +1102,6 @@ body{margin: 0px;}
 
  #search_section {
   margin-left: 20px;
-  margin-right: 0p;
  }
 
  /*/////////////////////////Filters///////////////////////////*/
@@ -1242,7 +1235,7 @@ flex-direction: row-reverse;
   }
 
  .lien_inscrire_xs {
-   display: revert;
+   display: initial;
    text-decoration: none;
    color: #0065FC;
    font-weight: bold;
@@ -1261,12 +1254,11 @@ flex-direction: row-reverse;
 /*////////////////Recherche///////////////////*/
 
  .rechercher  {
-  display: none;
+  display:none
   }
 
   #search_section  {
    margin-left: 30px;
-   margin-right: 0p;
   }
 
   #myInput  {
@@ -1274,7 +1266,7 @@ flex-direction: row-reverse;
   }
 
   .rechercher_icon {
-   display: revert;
+   display: initial;
    border: 0px;
    border-radius: 10px 10px 10px 10px;
    padding: 11px;
