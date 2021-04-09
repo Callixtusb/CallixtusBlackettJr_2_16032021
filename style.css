@@ -157,136 +157,137 @@ body{margin: 0px;}
   }
 
 /*///////////////////////////////////////////////////////////*/
-  .fa-money-bill-wave    /*icon class pour Economique*/
-  {
-    border-radius: 50%;
-    padding: 12.6px;
-    width: 40px;
-    vertical-align: middle;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    position: relative; 
-    z-index: 9;
-    bottom: 0.5px;
-    left: 18%;
-  } 
-  
-  .economique  { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #b8b7b7;
-    background: #ffff; 
-    padding-left: 40px; 
-    color: black;
-  }
-  
-  .economique:hover  {
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #DEEBFF;
-    background: #DEEBFF; 
-    padding-left: 40px; 
-    color: black;
-  }
+.fa-money-bill-wave    /*icon class pour Economique*/
+{
+  border-radius: 50%;
+  padding: 13px 11.5px;
+  width: 41px;
+  vertical-align: middle;
+  font-size: 14.2px;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  position: relative; 
+  z-index: 9;
+  bottom: 0.7px;
+  left: 18%;
+} 
+
+.economique  { 
+  padding: 10.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #b8b7b7;
+  background: #ffff; 
+  padding-left: 40px; 
+  color: black;
+}
+
+.economique:hover  {
+  padding: 11.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #DEEBFF;
+  background: #DEEBFF; 
+  padding-left: 40px; 
+  color: black;
+}
 
 /*///////////////////////////////////////////////////////////*/
-   .fa-child     /*icon class pour Familiale*/
-  {
-    border-radius: 50%;
-    padding: 12.6px;
-    width: 40px;
-    vertical-align: middle;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    position: relative; 
-    z-index: 8;
-    bottom: 0.5px;
-    left: 21%;
-  } 
-  
-  .familiale { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #b8b7b7;
-    background: #ffff;
-    padding-left: 38px; 
-    color: black;
-  }
-  
-  .familiale:hover { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #DEEBFF;
-    background: #DEEBFF; 
-    padding-left: 38px; 
-    color: black;
-  }
+ .fa-child     /*icon class pour Familiale*/
+{
+  border-radius: 50%;
+  padding: 12px 14.5px;
+  width: 41px;
+  vertical-align: middle;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  position: relative; 
+  z-index: 8;
+  bottom: 0.7px;
+  left: 21%;
+} 
+
+.familiale { 
+  padding: 10.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #b8b7b7;
+  background: #ffff;
+  padding-left: 38px; 
+  color: black;
+}
+
+.familiale:hover { 
+  padding: 11.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #DEEBFF;
+  background: #DEEBFF; 
+  padding-left: 38px; 
+  color: black;
+}
 
 /*///////////////////////////////////////////////////////////*/
-   .fa-heart     /*icon class pour Romantique*/
-  {
-    border-radius: 50%;
-    padding: 12.6px;
-    width: 40px;
-    vertical-align: middle;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    position: relative; 
-    z-index: 7;
-    bottom: 0.5px;
-    left: 21%;
-  } 
-  
-  .romantique { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #b8b7b7;
-    background: #ffff;  
-    padding-left: 45px; 
-    color: black;
-  }
-  
-  .romantique:hover { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #DEEBFF;
-    background: #DEEBFF; 
-    padding-left: 45px; 
-    color: black;   
-  }
+ .fa-heart     /*icon class pour Romantique*/
+{
+  border-radius: 50%;
+  padding: 13px 12.5px;
+  width: 41px;
+  vertical-align: middle;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  position: relative; 
+  z-index: 7;
+  bottom: 0.7px;
+  left: 18%;
+} 
+
+.romantique { 
+  padding: 11.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #b8b7b7;
+  background: #ffff;  
+  padding-left: 45px; 
+  color: black;
+}
+
+.romantique:hover { 
+  padding: 11.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #DEEBFF;
+  background: #DEEBFF; 
+  padding-left: 45px; 
+  color: black;   
+}
 
 /*///////////////////////////////////////////////////////////*/
-   .fa-dog     /*icon class pour Animaux authorisés*/
-  {
-    border-radius: 50%;
-    padding: 12.6px;
-    width: 40px;
-    vertical-align: middle;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    position: relative; 
-    z-index: 6;
-    bottom: 0.5px;
-    left: 15%;
-  } 
-  
-  .animaux { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #b8b7b7;
-    background: #ffff; 
-    padding-left: 40px; 
-    color: black;
-  }
-  
-  .animaux:hover { 
-    padding: 11.5px 20px; 
-    border-radius: 30px; 
-    border: 1.5px solid #DEEBFF;
-    background: #DEEBFF; 
-    padding-left: 40px; 
-    color: black;
-  }
+ .fa-dog     /*icon class pour Animaux authorisés*/
+{
+  border-radius: 50%;
+  padding: 13px 10px;
+  width: 40px;
+  vertical-align: middle;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  position: relative; 
+  z-index: 6;
+  bottom: 0.7px;
+  left: 15%;
+} 
+
+.animaux { 
+  padding: 11.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #b8b7b7;
+  background: #ffff; 
+  padding-left: 40px; 
+  color: black;
+}
+
+.animaux:hover { 
+  padding: 11.5px 20px; 
+  border-radius: 30px; 
+  border: 1.5px solid #DEEBFF;
+  background: #DEEBFF; 
+  padding-left: 40px; 
+  color: black;
+}
 
 /* Info block /////////////////////////////////////////////////////////*/
   .fa-info {
