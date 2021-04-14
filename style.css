@@ -193,6 +193,7 @@ border: 1.5px solid #DEEBFF;
 background: #DEEBFF; 
 padding-left: 40px; 
 color: black;
+transition: 0.6s;
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -226,6 +227,7 @@ border: 1.5px solid #DEEBFF;
 background: #DEEBFF; 
 padding-left: 38px; 
 color: black;
+transition: 0.6s;
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -258,7 +260,8 @@ border-radius: 30px;
 border: 1.5px solid #DEEBFF;
 background: #DEEBFF; 
 padding-left: 45px; 
-color: black;   
+color: black;
+transition: 0.6s;
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -292,6 +295,7 @@ border: 1.5px solid #DEEBFF;
 background: #DEEBFF; 
 padding-left: 40px; 
 color: black;
+transition: 0.6s;
 }
 
 /* Info block /////////////////////////////////////////////////////////*/
